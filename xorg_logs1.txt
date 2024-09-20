@@ -1,0 +1,1000 @@
+[    35.384] (II) NVIDIA(G0): Validated MetaModes:
+[    35.384] (II) NVIDIA(G0):     "NULL"
+[    35.384] (II) NVIDIA(G0): Virtual screen size determined to be 640 x 480
+[    35.636] (WW) NVIDIA(G0): Cannot find size of first mode for Philips PHL 241E1 (DFP-0);
+[    35.636] (WW) NVIDIA(G0):     cannot compute DPI from Philips PHL 241E1 (DFP-0)'s EDID.
+[    35.636] (==) NVIDIA(G0): DPI set to (75, 75); computed from built-in default
+[    35.708] (==) modeset(0): Backing store enabled
+[    35.708] (==) modeset(0): Silken mouse enabled
+[    35.733] (II) modeset(0): Initializing kms color map for depth 24, 8 bpc.
+[    35.733] (==) modeset(0): DPMS enabled
+[    35.733] (II) modeset(0): [DRI2] Setup complete
+[    35.733] (II) modeset(0): [DRI2]   DRI driver: iris
+[    35.733] (II) modeset(0): [DRI2]   VDPAU driver: va_gl
+[    35.735] (II) NVIDIA: Reserving 24576.00 MB of virtual memory for indirect memory
+[    35.735] (II) NVIDIA:     access.
+[    35.768] (II) NVIDIA(G0): ACPI: failed to connect to the ACPI event daemon; the daemon
+[    35.768] (II) NVIDIA(G0):     may not be running or the "AcpidSocketPath" X
+[    35.768] (II) NVIDIA(G0):     configuration option may not be set correctly.  When the
+[    35.768] (II) NVIDIA(G0):     ACPI event daemon is available, the NVIDIA X driver will
+[    35.768] (II) NVIDIA(G0):     try to use it to receive ACPI event notifications.  For
+[    35.768] (II) NVIDIA(G0):     details, please see the "ConnectToAcpid" and
+[    35.768] (II) NVIDIA(G0):     "AcpidSocketPath" X configuration options in Appendix B: X
+[    35.768] (II) NVIDIA(G0):     Config Options in the README.
+[    35.781] (II) NVIDIA(G0): Setting mode "NULL"
+[    36.169] (==) NVIDIA(G0): Disabling shared memory pixmaps
+[    36.169] (==) NVIDIA(G0): Backing store enabled
+[    36.169] (==) NVIDIA(G0): Silken mouse enabled
+[    36.169] (==) NVIDIA(G0): DPMS enabled
+[    36.169] (II) Loading sub module "dri2"
+[    36.169] (II) LoadModule: "dri2"
+[    36.169] (II) Module "dri2" already built-in
+[    36.169] (II) NVIDIA(G0): [DRI2] Setup complete
+[    36.169] (II) NVIDIA(G0): [DRI2]   VDPAU driver: nvidia
+[    36.169] (II) Initializing extension Generic Event Extension
+[    36.169] (II) Initializing extension SHAPE
+[    36.169] (II) Initializing extension MIT-SHM
+[    36.169] (II) Initializing extension XInputExtension
+[    36.170] (II) Initializing extension XTEST
+[    36.170] (II) Initializing extension BIG-REQUESTS
+[    36.170] (II) Initializing extension SYNC
+[    36.170] (II) Initializing extension XKEYBOARD
+[    36.170] (II) Initializing extension XC-MISC
+[    36.170] (II) Initializing extension SECURITY
+[    36.170] (II) Initializing extension XFIXES
+[    36.170] (II) Initializing extension RENDER
+[    36.170] (II) Initializing extension RANDR
+[    36.170] (II) Initializing extension COMPOSITE
+[    36.170] (II) Initializing extension DAMAGE
+[    36.170] (II) Initializing extension MIT-SCREEN-SAVER
+[    36.170] (II) Initializing extension DOUBLE-BUFFER
+[    36.170] (II) Initializing extension RECORD
+[    36.170] (II) Initializing extension DPMS
+[    36.170] (II) Initializing extension Present
+[    36.170] (II) Initializing extension DRI3
+[    36.170] (II) Initializing extension X-Resource
+[    36.170] (II) Initializing extension XVideo
+[    36.170] (II) Initializing extension XVideo-MotionCompensation
+[    36.170] (II) Initializing extension GLX
+[    36.170] (II) Initializing extension GLX
+[    36.171] (II) Indirect GLX disabled.
+[    36.174] (II) AIGLX: Loaded and initialized iris
+[    36.174] (II) GLX: Initialized DRI2 GL provider for screen 0
+[    36.174] (II) Initializing extension XFree86-VidModeExtension
+[    36.174] (II) Initializing extension XFree86-DGA
+[    36.175] (II) Initializing extension XFree86-DRI
+[    36.175] (II) Initializing extension DRI2
+[    36.175] (II) Initializing extension NV-GLX
+[    36.175] (II) Initializing extension NV-CONTROL
+[    36.175] (II) modeset(0): Damage tracking initialized
+[    36.175] (II) modeset(0): Setting screen physical size to 508 x 285
+[    36.199] (II) config/udev: Adding input device Video Bus (/dev/input/event7)
+[    36.199] (**) Video Bus: Applying InputClass "libinput keyboard catchall"
+[    36.199] (**) Video Bus: Applying InputClass "system-keyboard"
+[    36.199] (II) LoadModule: "libinput"
+[    36.200] (II) Loading /usr/lib/xorg/modules/input/libinput_drv.so
+[    36.200] (II) Module libinput: vendor="X.Org Foundation"
+[    36.200] 	compiled for 1.21.1.13, module version = 1.4.0
+[    36.200] 	Module class: X.Org XInput Driver
+[    36.200] 	ABI class: X.Org XInput driver, version 24.4
+[    36.200] (II) Using input driver 'libinput' for 'Video Bus'
+[    36.201] (II) systemd-logind: got fd for /dev/input/event7 13:71 fd 44 paused 0
+[    36.201] (**) Video Bus: always reports core events
+[    36.201] (**) Option "Device" "/dev/input/event7"
+[    36.202] (II) event7  - Video Bus: is tagged by udev as: Keyboard
+[    36.202] (II) event7  - Video Bus: device is a keyboard
+[    36.202] (II) event7  - Video Bus: device removed
+[    36.202] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:01/input/input9/event7"
+[    36.202] (II) XINPUT: Adding extended input device "Video Bus" (type: KEYBOARD, id 6)
+[    36.202] (**) Option "xkb_layout" "us"
+[    36.202] (**) Option "xkb_variant" "dvp"
+[    36.215] (II) event7  - Video Bus: is tagged by udev as: Keyboard
+[    36.215] (II) event7  - Video Bus: device is a keyboard
+[    36.215] (II) config/udev: Adding input device Video Bus (/dev/input/event6)
+[    36.215] (**) Video Bus: Applying InputClass "libinput keyboard catchall"
+[    36.215] (**) Video Bus: Applying InputClass "system-keyboard"
+[    36.215] (II) Using input driver 'libinput' for 'Video Bus'
+[    36.216] (II) systemd-logind: got fd for /dev/input/event6 13:70 fd 47 paused 0
+[    36.216] (**) Video Bus: always reports core events
+[    36.216] (**) Option "Device" "/dev/input/event6"
+[    36.216] (II) event6  - Video Bus: is tagged by udev as: Keyboard
+[    36.216] (II) event6  - Video Bus: device is a keyboard
+[    36.216] (II) event6  - Video Bus: device removed
+[    36.216] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:03/LNXVIDEO:00/input/input8/event6"
+[    36.216] (II) XINPUT: Adding extended input device "Video Bus" (type: KEYBOARD, id 7)
+[    36.216] (**) Option "xkb_layout" "us"
+[    36.216] (**) Option "xkb_variant" "dvp"
+[    36.217] (II) event6  - Video Bus: is tagged by udev as: Keyboard
+[    36.217] (II) event6  - Video Bus: device is a keyboard
+[    36.217] (II) config/udev: Adding input device Power Button (/dev/input/event1)
+[    36.217] (**) Power Button: Applying InputClass "libinput keyboard catchall"
+[    36.217] (**) Power Button: Applying InputClass "system-keyboard"
+[    36.217] (II) Using input driver 'libinput' for 'Power Button'
+[    36.217] (II) systemd-logind: got fd for /dev/input/event1 13:65 fd 48 paused 0
+[    36.217] (**) Power Button: always reports core events
+[    36.217] (**) Option "Device" "/dev/input/event1"
+[    36.218] (II) event1  - Power Button: is tagged by udev as: Keyboard
+[    36.218] (II) event1  - Power Button: device is a keyboard
+[    36.218] (II) event1  - Power Button: device removed
+[    36.218] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input1/event1"
+[    36.218] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 8)
+[    36.218] (**) Option "xkb_layout" "us"
+[    36.218] (**) Option "xkb_variant" "dvp"
+[    36.218] (II) event1  - Power Button: is tagged by udev as: Keyboard
+[    36.218] (II) event1  - Power Button: device is a keyboard
+[    36.218] (II) config/udev: Adding input device Lid Switch (/dev/input/event0)
+[    36.218] (II) No input driver specified, ignoring this device.
+[    36.218] (II) This device may have been added with another device file.
+[    36.218] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=3 (/dev/input/event15)
+[    36.218] (II) No input driver specified, ignoring this device.
+[    36.218] (II) This device may have been added with another device file.
+[    36.219] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=7 (/dev/input/event16)
+[    36.219] (II) No input driver specified, ignoring this device.
+[    36.219] (II) This device may have been added with another device file.
+[    36.219] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=8 (/dev/input/event17)
+[    36.219] (II) No input driver specified, ignoring this device.
+[    36.219] (II) This device may have been added with another device file.
+[    36.219] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=9 (/dev/input/event18)
+[    36.219] (II) No input driver specified, ignoring this device.
+[    36.219] (II) This device may have been added with another device file.
+[    36.219] (II) config/udev: Adding input device RAPOO Rapoo 2.4G Wireless Device (/dev/input/event3)
+[    36.219] (**) RAPOO Rapoo 2.4G Wireless Device: Applying InputClass "libinput keyboard catchall"
+[    36.219] (**) RAPOO Rapoo 2.4G Wireless Device: Applying InputClass "system-keyboard"
+[    36.219] (II) Using input driver 'libinput' for 'RAPOO Rapoo 2.4G Wireless Device'
+[    36.220] (II) systemd-logind: got fd for /dev/input/event3 13:67 fd 49 paused 0
+[    36.220] (**) RAPOO Rapoo 2.4G Wireless Device: always reports core events
+[    36.220] (**) Option "Device" "/dev/input/event3"
+[    36.220] (II) event3  - RAPOO Rapoo 2.4G Wireless Device: is tagged by udev as: Keyboard
+[    36.220] (II) event3  - RAPOO Rapoo 2.4G Wireless Device: device is a keyboard
+[    36.220] (II) event3  - RAPOO Rapoo 2.4G Wireless Device: device removed
+[    36.220] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb3/3-3/3-3:1.0/0003:24AE:1813.0001/input/input4/event3"
+[    36.220] (II) XINPUT: Adding extended input device "RAPOO Rapoo 2.4G Wireless Device" (type: KEYBOARD, id 9)
+[    36.220] (**) Option "xkb_layout" "us"
+[    36.220] (**) Option "xkb_variant" "dvp"
+[    36.221] (II) event3  - RAPOO Rapoo 2.4G Wireless Device: is tagged by udev as: Keyboard
+[    36.221] (II) event3  - RAPOO Rapoo 2.4G Wireless Device: device is a keyboard
+[    36.221] (II) config/udev: Adding input device RAPOO Rapoo 2.4G Wireless Device Mouse (/dev/input/event4)
+[    36.221] (**) RAPOO Rapoo 2.4G Wireless Device Mouse: Applying InputClass "libinput pointer catchall"
+[    36.221] (II) Using input driver 'libinput' for 'RAPOO Rapoo 2.4G Wireless Device Mouse'
+[    36.222] (II) systemd-logind: got fd for /dev/input/event4 13:68 fd 50 paused 0
+[    36.222] (**) RAPOO Rapoo 2.4G Wireless Device Mouse: always reports core events
+[    36.222] (**) Option "Device" "/dev/input/event4"
+[    36.222] (II) event4  - RAPOO Rapoo 2.4G Wireless Device Mouse: is tagged by udev as: Mouse
+[    36.223] (II) event4  - RAPOO Rapoo 2.4G Wireless Device Mouse: device is a pointer
+[    36.223] (II) event4  - RAPOO Rapoo 2.4G Wireless Device Mouse: device removed
+[    36.223] (II) libinput: RAPOO Rapoo 2.4G Wireless Device Mouse: Step value 0 was provided, libinput Fallback acceleration function is used.
+[    36.223] (II) libinput: RAPOO Rapoo 2.4G Wireless Device Mouse: Step value 0 was provided, libinput Fallback acceleration function is used.
+[    36.223] (II) libinput: RAPOO Rapoo 2.4G Wireless Device Mouse: Step value 0 was provided, libinput Fallback acceleration function is used.
+[    36.223] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb3/3-3/3-3:1.1/0003:24AE:1813.0002/input/input5/event4"
+[    36.223] (II) XINPUT: Adding extended input device "RAPOO Rapoo 2.4G Wireless Device Mouse" (type: MOUSE, id 10)
+[    36.223] (**) Option "AccelerationScheme" "none"
+[    36.223] (**) RAPOO Rapoo 2.4G Wireless Device Mouse: (accel) selected scheme none/0
+[    36.223] (**) RAPOO Rapoo 2.4G Wireless Device Mouse: (accel) acceleration factor: 2.000
+[    36.223] (**) RAPOO Rapoo 2.4G Wireless Device Mouse: (accel) acceleration threshold: 4
+[    36.223] (II) event4  - RAPOO Rapoo 2.4G Wireless Device Mouse: is tagged by udev as: Mouse
+[    36.223] (II) event4  - RAPOO Rapoo 2.4G Wireless Device Mouse: device is a pointer
+[    36.224] (II) config/udev: Adding input device RAPOO Rapoo 2.4G Wireless Device Mouse (/dev/input/mouse0)
+[    36.224] (II) No input driver specified, ignoring this device.
+[    36.224] (II) This device may have been added with another device file.
+[    36.224] (II) config/udev: Adding input device RAPOO Rapoo 2.4G Wireless Device Consumer Control (/dev/input/event5)
+[    36.224] (**) RAPOO Rapoo 2.4G Wireless Device Consumer Control: Applying InputClass "libinput keyboard catchall"
+[    36.224] (**) RAPOO Rapoo 2.4G Wireless Device Consumer Control: Applying InputClass "system-keyboard"
+[    36.224] (II) Using input driver 'libinput' for 'RAPOO Rapoo 2.4G Wireless Device Consumer Control'
+[    36.225] (II) systemd-logind: got fd for /dev/input/event5 13:69 fd 51 paused 0
+[    36.225] (**) RAPOO Rapoo 2.4G Wireless Device Consumer Control: always reports core events
+[    36.225] (**) Option "Device" "/dev/input/event5"
+[    36.226] (II) event5  - RAPOO Rapoo 2.4G Wireless Device Consumer Control: is tagged by udev as: Keyboard
+[    36.226] (II) event5  - RAPOO Rapoo 2.4G Wireless Device Consumer Control: device is a keyboard
+[    36.226] (II) event5  - RAPOO Rapoo 2.4G Wireless Device Consumer Control: device removed
+[    36.226] (II) libinput: RAPOO Rapoo 2.4G Wireless Device Consumer Control: needs a virtual subdevice
+[    36.226] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb3/3-3/3-3:1.1/0003:24AE:1813.0002/input/input6/event5"
+[    36.226] (II) XINPUT: Adding extended input device "RAPOO Rapoo 2.4G Wireless Device Consumer Control" (type: MOUSE, id 11)
+[    36.226] (**) Option "AccelerationScheme" "none"
+[    36.226] (**) RAPOO Rapoo 2.4G Wireless Device Consumer Control: (accel) selected scheme none/0
+[    36.226] (**) RAPOO Rapoo 2.4G Wireless Device Consumer Control: (accel) acceleration factor: 2.000
+[    36.226] (**) RAPOO Rapoo 2.4G Wireless Device Consumer Control: (accel) acceleration threshold: 4
+[    36.227] (II) event5  - RAPOO Rapoo 2.4G Wireless Device Consumer Control: is tagged by udev as: Keyboard
+[    36.227] (II) event5  - RAPOO Rapoo 2.4G Wireless Device Consumer Control: device is a keyboard
+[    36.227] (II) config/udev: Adding input device DELL Technologies Keyboard (/dev/input/event8)
+[    36.227] (**) DELL Technologies Keyboard: Applying InputClass "libinput keyboard catchall"
+[    36.227] (**) DELL Technologies Keyboard: Applying InputClass "system-keyboard"
+[    36.227] (II) Using input driver 'libinput' for 'DELL Technologies Keyboard'
+[    36.228] (II) systemd-logind: got fd for /dev/input/event8 13:72 fd 52 paused 0
+[    36.228] (**) DELL Technologies Keyboard: always reports core events
+[    36.228] (**) Option "Device" "/dev/input/event8"
+[    36.229] (II) event8  - DELL Technologies Keyboard: is tagged by udev as: Keyboard
+[    36.229] (II) event8  - DELL Technologies Keyboard: device is a keyboard
+[    36.229] (II) event8  - DELL Technologies Keyboard: device removed
+[    36.229] (II) libinput: DELL Technologies Keyboard: needs a virtual subdevice
+[    36.229] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb3/3-8/3-8:1.0/0003:0D62:CABC.0004/input/input10/event8"
+[    36.229] (II) XINPUT: Adding extended input device "DELL Technologies Keyboard" (type: MOUSE, id 12)
+[    36.229] (**) Option "AccelerationScheme" "none"
+[    36.229] (**) DELL Technologies Keyboard: (accel) selected scheme none/0
+[    36.229] (**) DELL Technologies Keyboard: (accel) acceleration factor: 2.000
+[    36.229] (**) DELL Technologies Keyboard: (accel) acceleration threshold: 4
+[    36.230] (II) event8  - DELL Technologies Keyboard: is tagged by udev as: Keyboard
+[    36.230] (II) event8  - DELL Technologies Keyboard: device is a keyboard
+[    36.231] (II) config/udev: Adding input device DELL0B54:00 06CB:CE62 Mouse (/dev/input/event13)
+[    36.231] (**) DELL0B54:00 06CB:CE62 Mouse: Applying InputClass "libinput pointer catchall"
+[    36.231] (II) Using input driver 'libinput' for 'DELL0B54:00 06CB:CE62 Mouse'
+[    36.232] (II) systemd-logind: got fd for /dev/input/event13 13:77 fd 53 paused 0
+[    36.232] (**) DELL0B54:00 06CB:CE62 Mouse: always reports core events
+[    36.232] (**) Option "Device" "/dev/input/event13"
+[    36.233] (II) event13 - DELL0B54:00 06CB:CE62 Mouse: is tagged by udev as: Mouse Pointingstick
+[    36.233] (II) event13 - DELL0B54:00 06CB:CE62 Mouse: device is a pointer
+[    36.234] (II) event13 - DELL0B54:00 06CB:CE62 Mouse: device removed
+[    36.234] (II) libinput: DELL0B54:00 06CB:CE62 Mouse: Step value 0 was provided, libinput Fallback acceleration function is used.
+[    36.234] (II) libinput: DELL0B54:00 06CB:CE62 Mouse: Step value 0 was provided, libinput Fallback acceleration function is used.
+[    36.234] (II) libinput: DELL0B54:00 06CB:CE62 Mouse: Step value 0 was provided, libinput Fallback acceleration function is used.
+[    36.234] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:15.1/i2c_designware.1/i2c-14/i2c-DELL0B54:00/0018:06CB:CE62.0005/input/input18/event13"
+[    36.234] (II) XINPUT: Adding extended input device "DELL0B54:00 06CB:CE62 Mouse" (type: MOUSE, id 13)
+[    36.234] (**) Option "AccelerationScheme" "none"
+[    36.234] (**) DELL0B54:00 06CB:CE62 Mouse: (accel) selected scheme none/0
+[    36.234] (**) DELL0B54:00 06CB:CE62 Mouse: (accel) acceleration factor: 2.000
+[    36.234] (**) DELL0B54:00 06CB:CE62 Mouse: (accel) acceleration threshold: 4
+[    36.235] (II) event13 - DELL0B54:00 06CB:CE62 Mouse: is tagged by udev as: Mouse Pointingstick
+[    36.235] (II) event13 - DELL0B54:00 06CB:CE62 Mouse: device is a pointer
+[    36.236] (II) config/udev: Adding input device DELL0B54:00 06CB:CE62 Mouse (/dev/input/mouse2)
+[    36.236] (II) No input driver specified, ignoring this device.
+[    36.236] (II) This device may have been added with another device file.
+[    36.236] (II) config/udev: Adding input device DELL0B54:00 06CB:CE62 Touchpad (/dev/input/event14)
+[    36.236] (**) DELL0B54:00 06CB:CE62 Touchpad: Applying InputClass "libinput touchpad catchall"
+[    36.236] (II) Using input driver 'libinput' for 'DELL0B54:00 06CB:CE62 Touchpad'
+[    36.237] (II) systemd-logind: got fd for /dev/input/event14 13:78 fd 54 paused 0
+[    36.237] (**) DELL0B54:00 06CB:CE62 Touchpad: always reports core events
+[    36.237] (**) Option "Device" "/dev/input/event14"
+[    36.238] (II) event14 - DELL0B54:00 06CB:CE62 Touchpad: is tagged by udev as: Touchpad
+[    36.239] (II) event14 - DELL0B54:00 06CB:CE62 Touchpad: device is a touchpad
+[    36.239] (II) event14 - DELL0B54:00 06CB:CE62 Touchpad: device removed
+[    36.239] (II) libinput: DELL0B54:00 06CB:CE62 Touchpad: Step value 0 was provided, libinput Fallback acceleration function is used.
+[    36.239] (II) libinput: DELL0B54:00 06CB:CE62 Touchpad: Step value 0 was provided, libinput Fallback acceleration function is used.
+[    36.239] (II) libinput: DELL0B54:00 06CB:CE62 Touchpad: Step value 0 was provided, libinput Fallback acceleration function is used.
+[    36.239] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:15.1/i2c_designware.1/i2c-14/i2c-DELL0B54:00/0018:06CB:CE62.0005/input/input19/event14"
+[    36.239] (II) XINPUT: Adding extended input device "DELL0B54:00 06CB:CE62 Touchpad" (type: TOUCHPAD, id 14)
+[    36.240] (**) Option "AccelerationScheme" "none"
+[    36.240] (**) DELL0B54:00 06CB:CE62 Touchpad: (accel) selected scheme none/0
+[    36.240] (**) DELL0B54:00 06CB:CE62 Touchpad: (accel) acceleration factor: 2.000
+[    36.240] (**) DELL0B54:00 06CB:CE62 Touchpad: (accel) acceleration threshold: 4
+[    36.241] (II) event14 - DELL0B54:00 06CB:CE62 Touchpad: is tagged by udev as: Touchpad
+[    36.241] (II) event14 - DELL0B54:00 06CB:CE62 Touchpad: device is a touchpad
+[    36.242] (II) config/udev: Adding input device DELL0B54:00 06CB:CE62 Touchpad (/dev/input/mouse3)
+[    36.242] (II) No input driver specified, ignoring this device.
+[    36.242] (II) This device may have been added with another device file.
+[    36.242] (II) config/udev: Adding input device sof-hda-dsp Headphone Mic (/dev/input/event19)
+[    36.242] (II) No input driver specified, ignoring this device.
+[    36.242] (II) This device may have been added with another device file.
+[    36.242] (II) config/udev: Adding input device sof-hda-dsp HDMI/DP,pcm=3 (/dev/input/event20)
+[    36.242] (II) No input driver specified, ignoring this device.
+[    36.242] (II) This device may have been added with another device file.
+[    36.242] (II) config/udev: Adding input device sof-hda-dsp HDMI/DP,pcm=4 (/dev/input/event21)
+[    36.242] (II) No input driver specified, ignoring this device.
+[    36.242] (II) This device may have been added with another device file.
+[    36.242] (II) config/udev: Adding input device sof-hda-dsp HDMI/DP,pcm=5 (/dev/input/event22)
+[    36.242] (II) No input driver specified, ignoring this device.
+[    36.242] (II) This device may have been added with another device file.
+[    36.242] (II) config/udev: Adding input device Intel HID events (/dev/input/event9)
+[    36.242] (**) Intel HID events: Applying InputClass "libinput keyboard catchall"
+[    36.242] (**) Intel HID events: Applying InputClass "system-keyboard"
+[    36.242] (II) Using input driver 'libinput' for 'Intel HID events'
+[    36.243] (II) systemd-logind: got fd for /dev/input/event9 13:73 fd 55 paused 0
+[    36.243] (**) Intel HID events: always reports core events
+[    36.243] (**) Option "Device" "/dev/input/event9"
+[    36.243] (II) event9  - Intel HID events: is tagged by udev as: Keyboard
+[    36.243] (II) event9  - Intel HID events: device is a keyboard
+[    36.243] (II) event9  - Intel HID events: device removed
+[    36.243] (**) Option "config_info" "udev:/sys/devices/platform/INTC1070:00/input/input11/event9"
+[    36.243] (II) XINPUT: Adding extended input device "Intel HID events" (type: KEYBOARD, id 15)
+[    36.243] (**) Option "xkb_layout" "us"
+[    36.243] (**) Option "xkb_variant" "dvp"
+[    36.243] (II) event9  - Intel HID events: is tagged by udev as: Keyboard
+[    36.243] (II) event9  - Intel HID events: device is a keyboard
+[    36.244] (II) config/udev: Adding input device Intel HID 5 button array (/dev/input/event10)
+[    36.244] (**) Intel HID 5 button array: Applying InputClass "libinput keyboard catchall"
+[    36.244] (**) Intel HID 5 button array: Applying InputClass "system-keyboard"
+[    36.244] (II) Using input driver 'libinput' for 'Intel HID 5 button array'
+[    36.244] (II) systemd-logind: got fd for /dev/input/event10 13:74 fd 56 paused 0
+[    36.244] (**) Intel HID 5 button array: always reports core events
+[    36.244] (**) Option "Device" "/dev/input/event10"
+[    36.244] (II) event10 - Intel HID 5 button array: is tagged by udev as: Keyboard
+[    36.244] (II) event10 - Intel HID 5 button array: device is a keyboard
+[    36.245] (II) event10 - Intel HID 5 button array: device removed
+[    36.245] (**) Option "config_info" "udev:/sys/devices/platform/INTC1070:00/input/input12/event10"
+[    36.245] (II) XINPUT: Adding extended input device "Intel HID 5 button array" (type: KEYBOARD, id 16)
+[    36.245] (**) Option "xkb_layout" "us"
+[    36.245] (**) Option "xkb_variant" "dvp"
+[    36.245] (II) event10 - Intel HID 5 button array: is tagged by udev as: Keyboard
+[    36.245] (II) event10 - Intel HID 5 button array: device is a keyboard
+[    36.245] (II) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event2)
+[    36.245] (**) AT Translated Set 2 keyboard: Applying InputClass "libinput keyboard catchall"
+[    36.245] (**) AT Translated Set 2 keyboard: Applying InputClass "system-keyboard"
+[    36.245] (II) Using input driver 'libinput' for 'AT Translated Set 2 keyboard'
+[    36.246] (II) systemd-logind: got fd for /dev/input/event2 13:66 fd 57 paused 0
+[    36.246] (**) AT Translated Set 2 keyboard: always reports core events
+[    36.246] (**) Option "Device" "/dev/input/event2"
+[    36.246] (II) event2  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[    36.246] (II) event2  - AT Translated Set 2 keyboard: device is a keyboard
+[    36.246] (II) event2  - AT Translated Set 2 keyboard: device removed
+[    36.246] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio0/input/input2/event2"
+[    36.246] (II) XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 17)
+[    36.246] (**) Option "xkb_layout" "us"
+[    36.246] (**) Option "xkb_variant" "dvp"
+[    36.247] (II) event2  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[    36.247] (II) event2  - AT Translated Set 2 keyboard: device is a keyboard
+[    36.247] (II) config/udev: Adding input device PS/2 Generic Mouse (/dev/input/event12)
+[    36.247] (**) PS/2 Generic Mouse: Applying InputClass "libinput pointer catchall"
+[    36.247] (II) Using input driver 'libinput' for 'PS/2 Generic Mouse'
+[    36.248] (II) systemd-logind: got fd for /dev/input/event12 13:76 fd 58 paused 0
+[    36.248] (**) PS/2 Generic Mouse: always reports core events
+[    36.248] (**) Option "Device" "/dev/input/event12"
+[    36.248] (II) event12 - PS/2 Generic Mouse: is tagged by udev as: Mouse
+[    36.248] (II) event12 - PS/2 Generic Mouse: device is a pointer
+[    36.248] (II) event12 - PS/2 Generic Mouse: device removed
+[    36.248] (II) libinput: PS/2 Generic Mouse: Step value 0 was provided, libinput Fallback acceleration function is used.
+[    36.248] (II) libinput: PS/2 Generic Mouse: Step value 0 was provided, libinput Fallback acceleration function is used.
+[    36.248] (II) libinput: PS/2 Generic Mouse: Step value 0 was provided, libinput Fallback acceleration function is used.
+[    36.248] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio1/input/input14/event12"
+[    36.248] (II) XINPUT: Adding extended input device "PS/2 Generic Mouse" (type: MOUSE, id 18)
+[    36.248] (**) Option "AccelerationScheme" "none"
+[    36.248] (**) PS/2 Generic Mouse: (accel) selected scheme none/0
+[    36.248] (**) PS/2 Generic Mouse: (accel) acceleration factor: 2.000
+[    36.248] (**) PS/2 Generic Mouse: (accel) acceleration threshold: 4
+[    36.248] (II) event12 - PS/2 Generic Mouse: is tagged by udev as: Mouse
+[    36.249] (II) event12 - PS/2 Generic Mouse: device is a pointer
+[    36.249] (II) config/udev: Adding input device PS/2 Generic Mouse (/dev/input/mouse1)
+[    36.249] (II) No input driver specified, ignoring this device.
+[    36.249] (II) This device may have been added with another device file.
+[    36.249] (II) config/udev: Adding input device PC Speaker (/dev/input/event11)
+[    36.249] (II) No input driver specified, ignoring this device.
+[    36.249] (II) This device may have been added with another device file.
+[    36.273] (**) RAPOO Rapoo 2.4G Wireless Device Consumer Control: Applying InputClass "libinput keyboard catchall"
+[    36.273] (**) RAPOO Rapoo 2.4G Wireless Device Consumer Control: Applying InputClass "system-keyboard"
+[    36.273] (II) Using input driver 'libinput' for 'RAPOO Rapoo 2.4G Wireless Device Consumer Control'
+[    36.273] (II) systemd-logind: returning pre-existing fd for /dev/input/event5 13:69
+[    36.273] (**) RAPOO Rapoo 2.4G Wireless Device Consumer Control: always reports core events
+[    36.273] (**) Option "Device" "/dev/input/event5"
+[    36.273] (II) libinput: RAPOO Rapoo 2.4G Wireless Device Consumer Control: is a virtual subdevice
+[    36.273] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb3/3-3/3-3:1.1/0003:24AE:1813.0002/input/input6/event5"
+[    36.273] (II) XINPUT: Adding extended input device "RAPOO Rapoo 2.4G Wireless Device Consumer Control" (type: KEYBOARD, id 19)
+[    36.273] (**) Option "xkb_layout" "us"
+[    36.273] (**) Option "xkb_variant" "dvp"
+[    36.273] (**) DELL Technologies Keyboard: Applying InputClass "libinput keyboard catchall"
+[    36.273] (**) DELL Technologies Keyboard: Applying InputClass "system-keyboard"
+[    36.273] (II) Using input driver 'libinput' for 'DELL Technologies Keyboard'
+[    36.273] (II) systemd-logind: returning pre-existing fd for /dev/input/event8 13:72
+[    36.273] (**) DELL Technologies Keyboard: always reports core events
+[    36.273] (**) Option "Device" "/dev/input/event8"
+[    36.273] (II) libinput: DELL Technologies Keyboard: is a virtual subdevice
+[    36.273] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb3/3-8/3-8:1.0/0003:0D62:CABC.0004/input/input10/event8"
+[    36.273] (II) XINPUT: Adding extended input device "DELL Technologies Keyboard" (type: KEYBOARD, id 20)
+[    36.273] (**) Option "xkb_layout" "us"
+[    36.273] (**) Option "xkb_variant" "dvp"
+[    36.932] (II) modeset(0): EDID vendor "SHP", prod id 5462
+[    36.932] (II) modeset(0): Using EDID range info for horizontal sync
+[    36.932] (II) modeset(0): Using EDID range info for vertical refresh
+[    36.932] (II) modeset(0): Printing DDC gathered Modelines:
+[    36.932] (II) modeset(0): Modeline "1920x1080"x0.0  139.77  1920 1968 2000 2080  1080 1083 1088 1120 -hsync -vsync (67.2 kHz eP)
+[    36.939] (II) modeset(0): EDID vendor "SHP", prod id 5462
+[    36.939] (II) modeset(0): Using hsync ranges from config file
+[    36.939] (II) modeset(0): Using vrefresh ranges from config file
+[    36.939] (II) modeset(0): Printing DDC gathered Modelines:
+[    36.939] (II) modeset(0): Modeline "1920x1080"x0.0  139.77  1920 1968 2000 2080  1080 1083 1088 1120 -hsync -vsync (67.2 kHz eP)
+[    36.986] (--) NVIDIA(GPU-0): Philips PHL 241E1 (DFP-0): connected
+[    36.986] (--) NVIDIA(GPU-0): Philips PHL 241E1 (DFP-0): Internal TMDS
+[    36.986] (--) NVIDIA(GPU-0): Philips PHL 241E1 (DFP-0): 600.0 MHz maximum pixel clock
+[    36.986] (--) NVIDIA(GPU-0): 
+[    36.986] (--) NVIDIA(GPU-0): DFP-1: disconnected
+[    36.986] (--) NVIDIA(GPU-0): DFP-1: Internal DisplayPort
+[    36.986] (--) NVIDIA(GPU-0): DFP-1: 2670.0 MHz maximum pixel clock
+[    36.986] (--) NVIDIA(GPU-0): 
+[    37.171] (II) modeset(0): Allocate new frame buffer 3840x1080 stride
+[    37.243] (II) NVIDIA(G0): Setting mode "HDMI-1-0: nvidia-auto-select @1920x1080 +0+0 {AllowGSYNC=Off, ViewPortIn=1920x1080, ViewPortOut=1920x1080+0+0}"
+[    37.599] (II) modeset(0): EDID vendor "SHP", prod id 5462
+[    37.599] (II) modeset(0): Using hsync ranges from config file
+[    37.599] (II) modeset(0): Using vrefresh ranges from config file
+[    37.599] (II) modeset(0): Printing DDC gathered Modelines:
+[    37.599] (II) modeset(0): Modeline "1920x1080"x0.0  139.77  1920 1968 2000 2080  1080 1083 1088 1120 -hsync -vsync (67.2 kHz eP)
+[    37.605] (II) modeset(0): EDID vendor "SHP", prod id 5462
+[    37.605] (II) modeset(0): Using hsync ranges from config file
+[    37.605] (II) modeset(0): Using vrefresh ranges from config file
+[    37.605] (II) modeset(0): Printing DDC gathered Modelines:
+[    37.605] (II) modeset(0): Modeline "1920x1080"x0.0  139.77  1920 1968 2000 2080  1080 1083 1088 1120 -hsync -vsync (67.2 kHz eP)
+[    37.655] (--) NVIDIA(GPU-0): Philips PHL 241E1 (DFP-0): connected
+[    37.655] (--) NVIDIA(GPU-0): Philips PHL 241E1 (DFP-0): Internal TMDS
+[    37.655] (--) NVIDIA(GPU-0): Philips PHL 241E1 (DFP-0): 600.0 MHz maximum pixel clock
+[    37.655] (--) NVIDIA(GPU-0): 
+[    37.655] (--) NVIDIA(GPU-0): DFP-1: disconnected
+[    37.655] (--) NVIDIA(GPU-0): DFP-1: Internal DisplayPort
+[    37.655] (--) NVIDIA(GPU-0): DFP-1: 2670.0 MHz maximum pixel clock
+[    37.655] (--) NVIDIA(GPU-0): 
+[    82.686] (II) config/udev: Adding input device 😺😸🙀😽😼😻😹😿😾 (AVRCP) (/dev/input/event23)
+[    82.686] (**) 😺😸🙀😽😼😻😹😿😾 (AVRCP): Applying InputClass "libinput keyboard catchall"
+[    82.686] (**) 😺😸🙀😽😼😻😹😿😾 (AVRCP): Applying InputClass "system-keyboard"
+[    82.686] (II) Using input driver 'libinput' for '😺😸🙀😽😼😻😹😿😾 (AVRCP)'
+[    82.687] (II) systemd-logind: got fd for /dev/input/event23 13:87 fd 83 paused 0
+[    82.687] (**) 😺😸🙀😽😼😻😹😿😾 (AVRCP): always reports core events
+[    82.687] (**) Option "Device" "/dev/input/event23"
+[    82.688] (II) event23 - 😺😸🙀😽😼😻😹😿😾 (AVRCP): is tagged by udev as: Keyboard
+[    82.688] (II) event23 - 😺😸🙀😽😼😻😹😿😾 (AVRCP): device is a keyboard
+[    82.689] (II) event23 - 😺😸🙀😽😼😻😹😿😾 (AVRCP): device removed
+[    82.689] (**) Option "config_info" "udev:/sys/devices/virtual/input/input29/event23"
+[    82.689] (II) XINPUT: Adding extended input device "😺😸🙀😽😼😻😹😿😾 (AVRCP)" (type: KEYBOARD, id 21)
+[    82.689] (**) Option "xkb_layout" "us"
+[    82.689] (**) Option "xkb_variant" "dvp"
+[    82.689] (II) event23 - 😺😸🙀😽😼😻😹😿😾 (AVRCP): is tagged by udev as: Keyboard
+[    82.690] (II) event23 - 😺😸🙀😽😼😻😹😿😾 (AVRCP): device is a keyboard
+[   751.025] (EE) event14 - DELL0B54:00 06CB:CE62 Touchpad: kernel bug: Touch jump detected and discarded.
+See https://wayland.freedesktop.org/libinput/doc/1.26.2/touchpad-jumping-cursors.html for details
+[  1357.123] (II) event23 - 😺😸🙀😽😼😻😹😿😾 (AVRCP): device removed
+[  1357.130] (II) config/udev: removing device 😺😸🙀😽😼😻😹😿😾 (AVRCP)
+[  1357.131] (**) Option "fd" "83"
+[  1357.132] (II) UnloadModule: "libinput"
+[  1357.132] (II) systemd-logind: releasing fd for 13:87
+[  2103.189] (II) event4  - RAPOO Rapoo 2.4G Wireless Device Mouse: SYN_DROPPED event - some input events have been lost.
+[  2107.046] (**) Option "fd" "44"
+[  2107.046] (II) event7  - Video Bus: device removed
+[  2107.046] (**) Option "fd" "47"
+[  2107.046] (II) event6  - Video Bus: device removed
+[  2107.046] (**) Option "fd" "48"
+[  2107.046] (II) event1  - Power Button: device removed
+[  2107.047] (**) Option "fd" "49"
+[  2107.047] (II) event3  - RAPOO Rapoo 2.4G Wireless Device: device removed
+[  2107.047] (**) Option "fd" "50"
+[  2107.047] (II) event4  - RAPOO Rapoo 2.4G Wireless Device Mouse: device removed
+[  2107.047] (**) Option "fd" "51"
+[  2107.047] (**) Option "fd" "52"
+[  2107.047] (**) Option "fd" "53"
+[  2107.047] (II) event13 - DELL0B54:00 06CB:CE62 Mouse: device removed
+[  2107.047] (**) Option "fd" "54"
+[  2107.047] (II) event14 - DELL0B54:00 06CB:CE62 Touchpad: device removed
+[  2107.047] (**) Option "fd" "55"
+[  2107.047] (II) event9  - Intel HID events: device removed
+[  2107.047] (**) Option "fd" "56"
+[  2107.047] (II) event10 - Intel HID 5 button array: device removed
+[  2107.047] (**) Option "fd" "57"
+[  2107.047] (II) event2  - AT Translated Set 2 keyboard: device removed
+[  2107.047] (**) Option "fd" "58"
+[  2107.047] (II) event12 - PS/2 Generic Mouse: device removed
+[  2107.047] (**) Option "fd" "51"
+[  2107.047] (II) event5  - RAPOO Rapoo 2.4G Wireless Device Consumer Control: device removed
+[  2107.047] (**) Option "fd" "52"
+[  2107.047] (II) event8  - DELL Technologies Keyboard: device removed
+[  2107.047] (II) AIGLX: Suspending AIGLX clients for VT switch
+[  2107.315] (II) systemd-logind: got pause for 13:68
+[  2107.315] (II) systemd-logind: got pause for 13:69
+[  2107.315] (II) systemd-logind: got pause for 13:76
+[  2107.315] (II) systemd-logind: got pause for 13:77
+[  2107.315] (II) systemd-logind: got pause for 13:66
+[  2107.315] (II) systemd-logind: got pause for 13:67
+[  2107.315] (II) systemd-logind: got pause for 13:72
+[  2107.315] (II) systemd-logind: got pause for 13:73
+[  2107.315] (II) systemd-logind: got pause for 13:78
+[  2107.315] (II) systemd-logind: got pause for 13:65
+[  2107.315] (II) systemd-logind: got pause for 13:74
+[  2107.315] (II) systemd-logind: got pause for 13:70
+[  2107.315] (II) systemd-logind: got pause for 13:71
+[  2109.723] (II) systemd-logind: got resume for 13:68
+[  2109.740] (II) systemd-logind: got resume for 13:69
+[  2109.780] (II) systemd-logind: got resume for 13:76
+[  2109.824] (II) systemd-logind: got resume for 13:77
+[  2109.874] (II) systemd-logind: got resume for 13:66
+[  2109.874] (II) systemd-logind: got resume for 226:1
+[  2109.874] (II) AIGLX: Resuming AIGLX clients after VT switch
+[  2109.888] (II) modeset(0): EDID vendor "SHP", prod id 5462
+[  2109.888] (II) modeset(0): Using hsync ranges from config file
+[  2109.888] (II) modeset(0): Using vrefresh ranges from config file
+[  2109.888] (II) modeset(0): Printing DDC gathered Modelines:
+[  2109.888] (II) modeset(0): Modeline "1920x1080"x0.0  139.77  1920 1968 2000 2080  1080 1083 1088 1120 -hsync -vsync (67.2 kHz eP)
+[  2109.931] (II) modeset(0): EDID vendor "SHP", prod id 5462
+[  2109.931] (II) modeset(0): Using hsync ranges from config file
+[  2109.931] (II) modeset(0): Using vrefresh ranges from config file
+[  2109.931] (II) modeset(0): Printing DDC gathered Modelines:
+[  2109.931] (II) modeset(0): Modeline "1920x1080"x0.0  139.77  1920 1968 2000 2080  1080 1083 1088 1120 -hsync -vsync (67.2 kHz eP)
+[  2109.982] (--) NVIDIA(GPU-0): Philips PHL 241E1 (DFP-0): connected
+[  2109.982] (--) NVIDIA(GPU-0): Philips PHL 241E1 (DFP-0): Internal TMDS
+[  2109.982] (--) NVIDIA(GPU-0): Philips PHL 241E1 (DFP-0): 600.0 MHz maximum pixel clock
+[  2109.982] (--) NVIDIA(GPU-0): 
+[  2109.982] (--) NVIDIA(GPU-0): DFP-1: disconnected
+[  2109.982] (--) NVIDIA(GPU-0): DFP-1: Internal DisplayPort
+[  2109.982] (--) NVIDIA(GPU-0): DFP-1: 2670.0 MHz maximum pixel clock
+[  2109.982] (--) NVIDIA(GPU-0): 
+[  2110.098] (II) NVIDIA(G0): Setting mode "HDMI-1-0: nvidia-auto-select @1920x1080 +0+0 {AllowGSYNC=Off, ViewPortIn=1920x1080, ViewPortOut=1920x1080+0+0}"
+[  2110.302] (II) NVIDIA(G0): ACPI: failed to connect to the ACPI event daemon; the daemon
+[  2110.302] (II) NVIDIA(G0):     may not be running or the "AcpidSocketPath" X
+[  2110.302] (II) NVIDIA(G0):     configuration option may not be set correctly.  When the
+[  2110.302] (II) NVIDIA(G0):     ACPI event daemon is available, the NVIDIA X driver will
+[  2110.302] (II) NVIDIA(G0):     try to use it to receive ACPI event notifications.  For
+[  2110.302] (II) NVIDIA(G0):     details, please see the "ConnectToAcpid" and
+[  2110.302] (II) NVIDIA(G0):     "AcpidSocketPath" X configuration options in Appendix B: X
+[  2110.302] (II) NVIDIA(G0):     Config Options in the README.
+[  2110.326] (II) event4  - RAPOO Rapoo 2.4G Wireless Device Mouse: is tagged by udev as: Mouse
+[  2110.326] (II) event4  - RAPOO Rapoo 2.4G Wireless Device Mouse: device is a pointer
+[  2110.327] (II) event5  - RAPOO Rapoo 2.4G Wireless Device Consumer Control: is tagged by udev as: Keyboard
+[  2110.327] (II) event5  - RAPOO Rapoo 2.4G Wireless Device Consumer Control: device is a keyboard
+[  2110.327] (II) event13 - DELL0B54:00 06CB:CE62 Mouse: is tagged by udev as: Mouse Pointingstick
+[  2110.328] (II) event13 - DELL0B54:00 06CB:CE62 Mouse: device is a pointer
+[  2110.328] (II) event2  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[  2110.328] (II) event2  - AT Translated Set 2 keyboard: device is a keyboard
+[  2110.329] (II) event12 - PS/2 Generic Mouse: is tagged by udev as: Mouse
+[  2110.329] (II) event12 - PS/2 Generic Mouse: device is a pointer
+[  2110.330] (II) systemd-logind: got resume for 13:67
+[  2110.330] (II) event3  - RAPOO Rapoo 2.4G Wireless Device: is tagged by udev as: Keyboard
+[  2110.330] (II) event3  - RAPOO Rapoo 2.4G Wireless Device: device is a keyboard
+[  2110.331] (II) systemd-logind: got resume for 13:72
+[  2110.332] (II) event8  - DELL Technologies Keyboard: is tagged by udev as: Keyboard
+[  2110.332] (II) event8  - DELL Technologies Keyboard: device is a keyboard
+[  2110.332] (II) systemd-logind: got resume for 13:73
+[  2110.332] (II) event9  - Intel HID events: is tagged by udev as: Keyboard
+[  2110.332] (II) event9  - Intel HID events: device is a keyboard
+[  2110.333] (II) systemd-logind: got resume for 13:78
+[  2110.333] (II) event14 - DELL0B54:00 06CB:CE62 Touchpad: is tagged by udev as: Touchpad
+[  2110.334] (II) event14 - DELL0B54:00 06CB:CE62 Touchpad: device is a touchpad
+[  2110.335] (II) systemd-logind: got resume for 13:65
+[  2110.335] (II) event1  - Power Button: is tagged by udev as: Keyboard
+[  2110.335] (II) event1  - Power Button: device is a keyboard
+[  2110.335] (II) systemd-logind: got resume for 13:74
+[  2110.336] (II) event10 - Intel HID 5 button array: is tagged by udev as: Keyboard
+[  2110.336] (II) event10 - Intel HID 5 button array: device is a keyboard
+[  2110.336] (II) systemd-logind: got resume for 13:70
+[  2110.337] (II) event6  - Video Bus: is tagged by udev as: Keyboard
+[  2110.337] (II) event6  - Video Bus: device is a keyboard
+[  2110.337] (II) systemd-logind: got resume for 13:71
+[  2110.337] (II) event7  - Video Bus: is tagged by udev as: Keyboard
+[  2110.337] (II) event7  - Video Bus: device is a keyboard
+[  2112.752] (--) NVIDIA(GPU-0): Philips PHL 241E1 (DFP-0): connected
+[  2112.752] (--) NVIDIA(GPU-0): Philips PHL 241E1 (DFP-0): Internal TMDS
+[  2112.752] (--) NVIDIA(GPU-0): Philips PHL 241E1 (DFP-0): 600.0 MHz maximum pixel clock
+[  2112.752] (--) NVIDIA(GPU-0): 
+[  2112.798] (--) NVIDIA(GPU-0): Philips PHL 241E1 (DFP-0): connected
+[  2112.798] (--) NVIDIA(GPU-0): Philips PHL 241E1 (DFP-0): Internal TMDS
+[  2112.798] (--) NVIDIA(GPU-0): Philips PHL 241E1 (DFP-0): 600.0 MHz maximum pixel clock
+[  2112.798] (--) NVIDIA(GPU-0): 
+[  2150.540] (EE) event14 - DELL0B54:00 06CB:CE62 Touchpad: kernel bug: Touch jump detected and discarded.
+See https://wayland.freedesktop.org/libinput/doc/1.26.2/touchpad-jumping-cursors.html for details
+[  2220.159] (EE) event14 - DELL0B54:00 06CB:CE62 Touchpad: kernel bug: Touch jump detected and discarded.
+See https://wayland.freedesktop.org/libinput/doc/1.26.2/touchpad-jumping-cursors.html for details
+[  2240.736] (EE) event14 - DELL0B54:00 06CB:CE62 Touchpad: kernel bug: Touch jump detected and discarded.
+See https://wayland.freedesktop.org/libinput/doc/1.26.2/touchpad-jumping-cursors.html for details
+[  2244.507] (EE) event14 - DELL0B54:00 06CB:CE62 Touchpad: kernel bug: Touch jump detected and discarded.
+See https://wayland.freedesktop.org/libinput/doc/1.26.2/touchpad-jumping-cursors.html for details
+[  2253.167] (EE) event14 - DELL0B54:00 06CB:CE62 Touchpad: kernel bug: Touch jump detected and discarded.
+See https://wayland.freedesktop.org/libinput/doc/1.26.2/touchpad-jumping-cursors.html for details
+[  2253.168] (EE) event14 - DELL0B54:00 06CB:CE62 Touchpad: WARNING: log rate limit exceeded (5 msgs per 24h). Discarding future messages.
+[  8916.092] (II) modeset(0): EDID vendor "SHP", prod id 5462
+[  8916.092] (II) modeset(0): Using hsync ranges from config file
+[  8916.092] (II) modeset(0): Using vrefresh ranges from config file
+[  8916.092] (II) modeset(0): Printing DDC gathered Modelines:
+[  8916.092] (II) modeset(0): Modeline "1920x1080"x0.0  139.77  1920 1968 2000 2080  1080 1083 1088 1120 -hsync -vsync (67.2 kHz eP)
+[  8916.104] (II) modeset(0): EDID vendor "SHP", prod id 5462
+[  8916.104] (II) modeset(0): Using hsync ranges from config file
+[  8916.104] (II) modeset(0): Using vrefresh ranges from config file
+[  8916.104] (II) modeset(0): Printing DDC gathered Modelines:
+[  8916.104] (II) modeset(0): Modeline "1920x1080"x0.0  139.77  1920 1968 2000 2080  1080 1083 1088 1120 -hsync -vsync (67.2 kHz eP)
+[  8916.106] (II) config/udev: Adding input device RAPOO Rapoo 2.4G Wireless Device Mouse (/dev/input/mouse0)
+[  8916.106] (II) No input driver specified, ignoring this device.
+[  8916.106] (II) This device may have been added with another device file.
+[  8916.106] (II) config/udev: Adding input device DELL0B54:00 06CB:CE62 Touchpad (/dev/input/mouse3)
+[  8916.106] (II) No input driver specified, ignoring this device.
+[  8916.106] (II) This device may have been added with another device file.
+[  8916.107] (II) config/udev: Adding input device DELL0B54:00 06CB:CE62 Mouse (/dev/input/mouse2)
+[  8916.107] (II) No input driver specified, ignoring this device.
+[  8916.107] (II) This device may have been added with another device file.
+[  8916.107] (II) config/udev: Adding input device PS/2 Generic Mouse (/dev/input/mouse1)
+[  8916.107] (II) No input driver specified, ignoring this device.
+[  8916.107] (II) This device may have been added with another device file.
+[  8916.108] (II) config/udev: removing device Power Button
+[  8916.108] (**) Option "fd" "57"
+[  8916.108] (II) event1  - Power Button: device removed
+[  8916.109] (II) UnloadModule: "libinput"
+[  8916.109] (II) systemd-logind: releasing fd for 13:65
+[  8916.162] (II) config/udev: Adding input device Power Button (/dev/input/event1)
+[  8916.162] (**) Power Button: Applying InputClass "libinput keyboard catchall"
+[  8916.162] (**) Power Button: Applying InputClass "system-keyboard"
+[  8916.162] (II) Using input driver 'libinput' for 'Power Button'
+[  8916.163] (II) systemd-logind: got fd for /dev/input/event1 13:65 fd 85 paused 0
+[  8916.163] (**) Power Button: always reports core events
+[  8916.163] (**) Option "Device" "/dev/input/event1"
+[  8916.163] (II) event1  - Power Button: is tagged by udev as: Keyboard
+[  8916.163] (II) event1  - Power Button: device is a keyboard
+[  8916.164] (II) event1  - Power Button: device removed
+[  8916.164] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input1/event1"
+[  8916.164] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 8)
+[  8916.164] (**) Option "xkb_layout" "us"
+[  8916.164] (**) Option "xkb_variant" "dvp"
+[  8916.165] (II) event1  - Power Button: is tagged by udev as: Keyboard
+[  8916.165] (II) event1  - Power Button: device is a keyboard
+[  8916.165] (II) config/udev: removing device Video Bus
+[  8916.165] (**) Option "fd" "95"
+[  8916.165] (II) event7  - Video Bus: device removed
+[  8916.165] (II) UnloadModule: "libinput"
+[  8916.165] (II) systemd-logind: releasing fd for 13:71
+[  8916.259] (II) config/udev: Adding input device Video Bus (/dev/input/event7)
+[  8916.259] (**) Video Bus: Applying InputClass "libinput keyboard catchall"
+[  8916.259] (**) Video Bus: Applying InputClass "system-keyboard"
+[  8916.259] (II) Using input driver 'libinput' for 'Video Bus'
+[  8916.260] (II) systemd-logind: got fd for /dev/input/event7 13:71 fd 95 paused 0
+[  8916.260] (**) Video Bus: always reports core events
+[  8916.260] (**) Option "Device" "/dev/input/event7"
+[  8916.260] (II) event7  - Video Bus: is tagged by udev as: Keyboard
+[  8916.260] (II) event7  - Video Bus: device is a keyboard
+[  8916.261] (II) event7  - Video Bus: device removed
+[  8916.261] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:01/input/input9/event7"
+[  8916.261] (II) XINPUT: Adding extended input device "Video Bus" (type: KEYBOARD, id 6)
+[  8916.261] (**) Option "xkb_layout" "us"
+[  8916.261] (**) Option "xkb_variant" "dvp"
+[  8916.261] (II) event7  - Video Bus: is tagged by udev as: Keyboard
+[  8916.261] (II) event7  - Video Bus: device is a keyboard
+[  8916.262] (II) config/udev: removing device Video Bus
+[  8916.262] (**) Option "fd" "82"
+[  8916.262] (II) event6  - Video Bus: device removed
+[  8916.263] (II) UnloadModule: "libinput"
+[  8916.263] (II) systemd-logind: releasing fd for 13:70
+[  8916.372] (II) config/udev: Adding input device Video Bus (/dev/input/event6)
+[  8916.373] (**) Video Bus: Applying InputClass "libinput keyboard catchall"
+[  8916.373] (**) Video Bus: Applying InputClass "system-keyboard"
+[  8916.373] (II) Using input driver 'libinput' for 'Video Bus'
+[  8916.373] (II) systemd-logind: got fd for /dev/input/event6 13:70 fd 82 paused 0
+[  8916.373] (**) Video Bus: always reports core events
+[  8916.373] (**) Option "Device" "/dev/input/event6"
+[  8916.374] (II) event6  - Video Bus: is tagged by udev as: Keyboard
+[  8916.374] (II) event6  - Video Bus: device is a keyboard
+[  8916.374] (II) event6  - Video Bus: device removed
+[  8916.374] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:03/LNXVIDEO:00/input/input8/event6"
+[  8916.374] (II) XINPUT: Adding extended input device "Video Bus" (type: KEYBOARD, id 7)
+[  8916.374] (**) Option "xkb_layout" "us"
+[  8916.374] (**) Option "xkb_variant" "dvp"
+[  8916.375] (II) event6  - Video Bus: is tagged by udev as: Keyboard
+[  8916.375] (II) event6  - Video Bus: device is a keyboard
+[  8916.377] (II) config/udev: removing device RAPOO Rapoo 2.4G Wireless Device
+[  8916.377] (**) Option "fd" "53"
+[  8916.377] (II) event3  - RAPOO Rapoo 2.4G Wireless Device: device removed
+[  8916.378] (II) UnloadModule: "libinput"
+[  8916.378] (II) systemd-logind: releasing fd for 13:67
+[  8916.406] (II) config/udev: Adding input device RAPOO Rapoo 2.4G Wireless Device (/dev/input/event3)
+[  8916.406] (**) RAPOO Rapoo 2.4G Wireless Device: Applying InputClass "libinput keyboard catchall"
+[  8916.406] (**) RAPOO Rapoo 2.4G Wireless Device: Applying InputClass "system-keyboard"
+[  8916.406] (II) Using input driver 'libinput' for 'RAPOO Rapoo 2.4G Wireless Device'
+[  8916.407] (II) systemd-logind: got fd for /dev/input/event3 13:67 fd 57 paused 0
+[  8916.407] (**) RAPOO Rapoo 2.4G Wireless Device: always reports core events
+[  8916.407] (**) Option "Device" "/dev/input/event3"
+[  8916.407] (II) event3  - RAPOO Rapoo 2.4G Wireless Device: is tagged by udev as: Keyboard
+[  8916.407] (II) event3  - RAPOO Rapoo 2.4G Wireless Device: device is a keyboard
+[  8916.408] (II) event3  - RAPOO Rapoo 2.4G Wireless Device: device removed
+[  8916.408] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb3/3-3/3-3:1.0/0003:24AE:1813.0001/input/input4/event3"
+[  8916.408] (II) XINPUT: Adding extended input device "RAPOO Rapoo 2.4G Wireless Device" (type: KEYBOARD, id 9)
+[  8916.408] (**) Option "xkb_layout" "us"
+[  8916.408] (**) Option "xkb_variant" "dvp"
+[  8916.409] (II) event3  - RAPOO Rapoo 2.4G Wireless Device: is tagged by udev as: Keyboard
+[  8916.409] (II) event3  - RAPOO Rapoo 2.4G Wireless Device: device is a keyboard
+[  8916.409] (II) config/udev: removing device Intel HID 5 button array
+[  8916.409] (**) Option "fd" "58"
+[  8916.409] (II) event10 - Intel HID 5 button array: device removed
+[  8916.410] (II) UnloadModule: "libinput"
+[  8916.410] (II) systemd-logind: releasing fd for 13:74
+[  8916.459] (II) config/udev: Adding input device Intel HID 5 button array (/dev/input/event10)
+[  8916.459] (**) Intel HID 5 button array: Applying InputClass "libinput keyboard catchall"
+[  8916.459] (**) Intel HID 5 button array: Applying InputClass "system-keyboard"
+[  8916.459] (II) Using input driver 'libinput' for 'Intel HID 5 button array'
+[  8916.460] (II) systemd-logind: got fd for /dev/input/event10 13:74 fd 58 paused 0
+[  8916.460] (**) Intel HID 5 button array: always reports core events
+[  8916.460] (**) Option "Device" "/dev/input/event10"
+[  8916.460] (II) event10 - Intel HID 5 button array: is tagged by udev as: Keyboard
+[  8916.460] (II) event10 - Intel HID 5 button array: device is a keyboard
+[  8916.460] (II) event10 - Intel HID 5 button array: device removed
+[  8916.460] (**) Option "config_info" "udev:/sys/devices/platform/INTC1070:00/input/input12/event10"
+[  8916.460] (II) XINPUT: Adding extended input device "Intel HID 5 button array" (type: KEYBOARD, id 16)
+[  8916.460] (**) Option "xkb_layout" "us"
+[  8916.460] (**) Option "xkb_variant" "dvp"
+[  8916.461] (II) event10 - Intel HID 5 button array: is tagged by udev as: Keyboard
+[  8916.461] (II) event10 - Intel HID 5 button array: device is a keyboard
+[  8916.462] (II) config/udev: removing device Intel HID events
+[  8916.462] (**) Option "fd" "55"
+[  8916.462] (II) event9  - Intel HID events: device removed
+[  8916.463] (II) UnloadModule: "libinput"
+[  8916.463] (II) systemd-logind: releasing fd for 13:73
+[  8916.506] (II) config/udev: Adding input device Intel HID events (/dev/input/event9)
+[  8916.506] (**) Intel HID events: Applying InputClass "libinput keyboard catchall"
+[  8916.506] (**) Intel HID events: Applying InputClass "system-keyboard"
+[  8916.506] (II) Using input driver 'libinput' for 'Intel HID events'
+[  8916.506] (II) systemd-logind: got fd for /dev/input/event9 13:73 fd 55 paused 0
+[  8916.506] (**) Intel HID events: always reports core events
+[  8916.506] (**) Option "Device" "/dev/input/event9"
+[  8916.507] (II) event9  - Intel HID events: is tagged by udev as: Keyboard
+[  8916.507] (II) event9  - Intel HID events: device is a keyboard
+[  8916.507] (II) event9  - Intel HID events: device removed
+[  8916.507] (**) Option "config_info" "udev:/sys/devices/platform/INTC1070:00/input/input11/event9"
+[  8916.507] (II) XINPUT: Adding extended input device "Intel HID events" (type: KEYBOARD, id 15)
+[  8916.507] (**) Option "xkb_layout" "us"
+[  8916.507] (**) Option "xkb_variant" "dvp"
+[  8916.508] (II) event9  - Intel HID events: is tagged by udev as: Keyboard
+[  8916.508] (II) event9  - Intel HID events: device is a keyboard
+[  8916.508] (II) config/udev: removing device RAPOO Rapoo 2.4G Wireless Device Consumer Control
+[  8916.508] (**) Option "fd" "44"
+[  8916.509] (II) UnloadModule: "libinput"
+[  8916.509] (II) systemd-logind: not releasing fd for 13:69, still in use
+[  8916.509] (II) config/udev: removing device RAPOO Rapoo 2.4G Wireless Device Consumer Control
+[  8916.509] (**) Option "fd" "44"
+[  8916.509] (II) event5  - RAPOO Rapoo 2.4G Wireless Device Consumer Control: device removed
+[  8916.509] (II) UnloadModule: "libinput"
+[  8916.509] (II) systemd-logind: releasing fd for 13:69
+[  8916.549] (II) config/udev: Adding input device RAPOO Rapoo 2.4G Wireless Device Consumer Control (/dev/input/event5)
+[  8916.549] (**) RAPOO Rapoo 2.4G Wireless Device Consumer Control: Applying InputClass "libinput keyboard catchall"
+[  8916.549] (**) RAPOO Rapoo 2.4G Wireless Device Consumer Control: Applying InputClass "system-keyboard"
+[  8916.549] (II) Using input driver 'libinput' for 'RAPOO Rapoo 2.4G Wireless Device Consumer Control'
+[  8916.550] (II) systemd-logind: got fd for /dev/input/event5 13:69 fd 53 paused 0
+[  8916.550] (**) RAPOO Rapoo 2.4G Wireless Device Consumer Control: always reports core events
+[  8916.550] (**) Option "Device" "/dev/input/event5"
+[  8916.551] (II) event5  - RAPOO Rapoo 2.4G Wireless Device Consumer Control: is tagged by udev as: Keyboard
+[  8916.551] (II) event5  - RAPOO Rapoo 2.4G Wireless Device Consumer Control: device is a keyboard
+[  8916.551] (II) event5  - RAPOO Rapoo 2.4G Wireless Device Consumer Control: device removed
+[  8916.551] (II) libinput: RAPOO Rapoo 2.4G Wireless Device Consumer Control: needs a virtual subdevice
+[  8916.551] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb3/3-3/3-3:1.1/0003:24AE:1813.0002/input/input6/event5"
+[  8916.551] (II) XINPUT: Adding extended input device "RAPOO Rapoo 2.4G Wireless Device Consumer Control" (type: MOUSE, id 11)
+[  8916.551] (**) Option "AccelerationScheme" "none"
+[  8916.551] (**) RAPOO Rapoo 2.4G Wireless Device Consumer Control: (accel) selected scheme none/0
+[  8916.551] (**) RAPOO Rapoo 2.4G Wireless Device Consumer Control: (accel) acceleration factor: 2.000
+[  8916.551] (**) RAPOO Rapoo 2.4G Wireless Device Consumer Control: (accel) acceleration threshold: 4
+[  8916.552] (II) event5  - RAPOO Rapoo 2.4G Wireless Device Consumer Control: is tagged by udev as: Keyboard
+[  8916.552] (II) event5  - RAPOO Rapoo 2.4G Wireless Device Consumer Control: device is a keyboard
+[  8916.553] (**) RAPOO Rapoo 2.4G Wireless Device Consumer Control: Applying InputClass "libinput keyboard catchall"
+[  8916.553] (**) RAPOO Rapoo 2.4G Wireless Device Consumer Control: Applying InputClass "system-keyboard"
+[  8916.553] (II) Using input driver 'libinput' for 'RAPOO Rapoo 2.4G Wireless Device Consumer Control'
+[  8916.553] (II) systemd-logind: returning pre-existing fd for /dev/input/event5 13:69
+[  8916.553] (**) RAPOO Rapoo 2.4G Wireless Device Consumer Control: always reports core events
+[  8916.553] (**) Option "Device" "/dev/input/event5"
+[  8916.553] (II) libinput: RAPOO Rapoo 2.4G Wireless Device Consumer Control: is a virtual subdevice
+[  8916.553] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb3/3-3/3-3:1.1/0003:24AE:1813.0002/input/input6/event5"
+[  8916.553] (II) XINPUT: Adding extended input device "RAPOO Rapoo 2.4G Wireless Device Consumer Control" (type: KEYBOARD, id 19)
+[  8916.553] (**) Option "xkb_layout" "us"
+[  8916.553] (**) Option "xkb_variant" "dvp"
+[  8916.553] (II) config/udev: removing device RAPOO Rapoo 2.4G Wireless Device Mouse
+[  8916.553] (**) Option "fd" "35"
+[  8916.553] (II) event4  - RAPOO Rapoo 2.4G Wireless Device Mouse: device removed
+[  8916.554] (II) UnloadModule: "libinput"
+[  8916.554] (II) systemd-logind: releasing fd for 13:68
+[  8916.606] (II) config/udev: Adding input device RAPOO Rapoo 2.4G Wireless Device Mouse (/dev/input/event4)
+[  8916.606] (**) RAPOO Rapoo 2.4G Wireless Device Mouse: Applying InputClass "libinput pointer catchall"
+[  8916.606] (II) Using input driver 'libinput' for 'RAPOO Rapoo 2.4G Wireless Device Mouse'
+[  8916.606] (II) systemd-logind: got fd for /dev/input/event4 13:68 fd 44 paused 0
+[  8916.606] (**) RAPOO Rapoo 2.4G Wireless Device Mouse: always reports core events
+[  8916.606] (**) Option "Device" "/dev/input/event4"
+[  8916.607] (II) event4  - RAPOO Rapoo 2.4G Wireless Device Mouse: is tagged by udev as: Mouse
+[  8916.607] (II) event4  - RAPOO Rapoo 2.4G Wireless Device Mouse: device is a pointer
+[  8916.608] (II) event4  - RAPOO Rapoo 2.4G Wireless Device Mouse: device removed
+[  8916.608] (II) libinput: RAPOO Rapoo 2.4G Wireless Device Mouse: Step value 0 was provided, libinput Fallback acceleration function is used.
+[  8916.608] (II) libinput: RAPOO Rapoo 2.4G Wireless Device Mouse: Step value 0 was provided, libinput Fallback acceleration function is used.
+[  8916.608] (II) libinput: RAPOO Rapoo 2.4G Wireless Device Mouse: Step value 0 was provided, libinput Fallback acceleration function is used.
+[  8916.608] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb3/3-3/3-3:1.1/0003:24AE:1813.0002/input/input5/event4"
+[  8916.608] (II) XINPUT: Adding extended input device "RAPOO Rapoo 2.4G Wireless Device Mouse" (type: MOUSE, id 10)
+[  8916.608] (**) Option "AccelerationScheme" "none"
+[  8916.608] (**) RAPOO Rapoo 2.4G Wireless Device Mouse: (accel) selected scheme none/0
+[  8916.608] (**) RAPOO Rapoo 2.4G Wireless Device Mouse: (accel) acceleration factor: 2.000
+[  8916.608] (**) RAPOO Rapoo 2.4G Wireless Device Mouse: (accel) acceleration threshold: 4
+[  8916.609] (II) event4  - RAPOO Rapoo 2.4G Wireless Device Mouse: is tagged by udev as: Mouse
+[  8916.609] (II) event4  - RAPOO Rapoo 2.4G Wireless Device Mouse: device is a pointer
+[  8916.609] (II) config/udev: Adding input device Lid Switch (/dev/input/event0)
+[  8916.609] (II) No input driver specified, ignoring this device.
+[  8916.609] (II) This device may have been added with another device file.
+[  8916.610] (II) config/udev: removing device DELL0B54:00 06CB:CE62 Mouse
+[  8916.610] (**) Option "fd" "48"
+[  8916.610] (II) event13 - DELL0B54:00 06CB:CE62 Mouse: device removed
+[  8916.611] (II) UnloadModule: "libinput"
+[  8916.611] (II) systemd-logind: releasing fd for 13:77
+[  8916.719] (II) config/udev: Adding input device DELL0B54:00 06CB:CE62 Mouse (/dev/input/event13)
+[  8916.719] (**) DELL0B54:00 06CB:CE62 Mouse: Applying InputClass "libinput pointer catchall"
+[  8916.719] (II) Using input driver 'libinput' for 'DELL0B54:00 06CB:CE62 Mouse'
+[  8916.720] (II) systemd-logind: got fd for /dev/input/event13 13:77 fd 48 paused 0
+[  8916.720] (**) DELL0B54:00 06CB:CE62 Mouse: always reports core events
+[  8916.720] (**) Option "Device" "/dev/input/event13"
+[  8916.720] (II) event13 - DELL0B54:00 06CB:CE62 Mouse: is tagged by udev as: Mouse Pointingstick
+[  8916.721] (II) event13 - DELL0B54:00 06CB:CE62 Mouse: device is a pointer
+[  8916.721] (II) event13 - DELL0B54:00 06CB:CE62 Mouse: device removed
+[  8916.721] (II) libinput: DELL0B54:00 06CB:CE62 Mouse: Step value 0 was provided, libinput Fallback acceleration function is used.
+[  8916.721] (II) libinput: DELL0B54:00 06CB:CE62 Mouse: Step value 0 was provided, libinput Fallback acceleration function is used.
+[  8916.721] (II) libinput: DELL0B54:00 06CB:CE62 Mouse: Step value 0 was provided, libinput Fallback acceleration function is used.
+[  8916.721] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:15.1/i2c_designware.1/i2c-14/i2c-DELL0B54:00/0018:06CB:CE62.0005/input/input18/event13"
+[  8916.721] (II) XINPUT: Adding extended input device "DELL0B54:00 06CB:CE62 Mouse" (type: MOUSE, id 13)
+[  8916.722] (**) Option "AccelerationScheme" "none"
+[  8916.722] (**) DELL0B54:00 06CB:CE62 Mouse: (accel) selected scheme none/0
+[  8916.722] (**) DELL0B54:00 06CB:CE62 Mouse: (accel) acceleration factor: 2.000
+[  8916.722] (**) DELL0B54:00 06CB:CE62 Mouse: (accel) acceleration threshold: 4
+[  8916.722] (II) event13 - DELL0B54:00 06CB:CE62 Mouse: is tagged by udev as: Mouse Pointingstick
+[  8916.723] (II) event13 - DELL0B54:00 06CB:CE62 Mouse: device is a pointer
+[  8916.724] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=8 (/dev/input/event17)
+[  8916.724] (II) No input driver specified, ignoring this device.
+[  8916.724] (II) This device may have been added with another device file.
+[  8916.724] (II) config/udev: removing device DELL Technologies Keyboard
+[  8916.724] (**) Option "fd" "54"
+[  8916.725] (II) UnloadModule: "libinput"
+[  8916.725] (II) systemd-logind: not releasing fd for 13:72, still in use
+[  8916.725] (II) config/udev: removing device DELL Technologies Keyboard
+[  8916.725] (**) Option "fd" "54"
+[  8916.725] (II) event8  - DELL Technologies Keyboard: device removed
+[  8916.725] (II) UnloadModule: "libinput"
+[  8916.725] (II) systemd-logind: releasing fd for 13:72
+[  8916.769] (II) config/udev: Adding input device DELL Technologies Keyboard (/dev/input/event8)
+[  8916.769] (**) DELL Technologies Keyboard: Applying InputClass "libinput keyboard catchall"
+[  8916.769] (**) DELL Technologies Keyboard: Applying InputClass "system-keyboard"
+[  8916.769] (II) Using input driver 'libinput' for 'DELL Technologies Keyboard'
+[  8916.770] (II) systemd-logind: got fd for /dev/input/event8 13:72 fd 54 paused 0
+[  8916.770] (**) DELL Technologies Keyboard: always reports core events
+[  8916.770] (**) Option "Device" "/dev/input/event8"
+[  8916.772] (II) event8  - DELL Technologies Keyboard: is tagged by udev as: Keyboard
+[  8916.772] (II) event8  - DELL Technologies Keyboard: device is a keyboard
+[  8916.772] (II) event8  - DELL Technologies Keyboard: device removed
+[  8916.772] (II) libinput: DELL Technologies Keyboard: needs a virtual subdevice
+[  8916.772] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb3/3-8/3-8:1.0/0003:0D62:CABC.0004/input/input10/event8"
+[  8916.772] (II) XINPUT: Adding extended input device "DELL Technologies Keyboard" (type: MOUSE, id 12)
+[  8916.773] (**) Option "AccelerationScheme" "none"
+[  8916.773] (**) DELL Technologies Keyboard: (accel) selected scheme none/0
+[  8916.773] (**) DELL Technologies Keyboard: (accel) acceleration factor: 2.000
+[  8916.773] (**) DELL Technologies Keyboard: (accel) acceleration threshold: 4
+[  8916.774] (II) event8  - DELL Technologies Keyboard: is tagged by udev as: Keyboard
+[  8916.774] (II) event8  - DELL Technologies Keyboard: device is a keyboard
+[  8916.775] (**) DELL Technologies Keyboard: Applying InputClass "libinput keyboard catchall"
+[  8916.775] (**) DELL Technologies Keyboard: Applying InputClass "system-keyboard"
+[  8916.775] (II) Using input driver 'libinput' for 'DELL Technologies Keyboard'
+[  8916.775] (II) systemd-logind: returning pre-existing fd for /dev/input/event8 13:72
+[  8916.775] (**) DELL Technologies Keyboard: always reports core events
+[  8916.775] (**) Option "Device" "/dev/input/event8"
+[  8916.775] (II) libinput: DELL Technologies Keyboard: is a virtual subdevice
+[  8916.775] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb3/3-8/3-8:1.0/0003:0D62:CABC.0004/input/input10/event8"
+[  8916.775] (II) XINPUT: Adding extended input device "DELL Technologies Keyboard" (type: KEYBOARD, id 20)
+[  8916.775] (**) Option "xkb_layout" "us"
+[  8916.775] (**) Option "xkb_variant" "dvp"
+[  8916.776] (II) config/udev: removing device PS/2 Generic Mouse
+[  8916.776] (**) Option "fd" "47"
+[  8916.776] (II) event12 - PS/2 Generic Mouse: device removed
+[  8916.778] (II) UnloadModule: "libinput"
+[  8916.778] (II) systemd-logind: releasing fd for 13:76
+[  8916.879] (II) config/udev: Adding input device PS/2 Generic Mouse (/dev/input/event12)
+[  8916.879] (**) PS/2 Generic Mouse: Applying InputClass "libinput pointer catchall"
+[  8916.879] (II) Using input driver 'libinput' for 'PS/2 Generic Mouse'
+[  8916.880] (II) systemd-logind: got fd for /dev/input/event12 13:76 fd 47 paused 0
+[  8916.880] (**) PS/2 Generic Mouse: always reports core events
+[  8916.880] (**) Option "Device" "/dev/input/event12"
+[  8916.881] (II) event12 - PS/2 Generic Mouse: is tagged by udev as: Mouse
+[  8916.881] (II) event12 - PS/2 Generic Mouse: device is a pointer
+[  8916.881] (II) event12 - PS/2 Generic Mouse: device removed
+[  8916.881] (II) libinput: PS/2 Generic Mouse: Step value 0 was provided, libinput Fallback acceleration function is used.
+[  8916.881] (II) libinput: PS/2 Generic Mouse: Step value 0 was provided, libinput Fallback acceleration function is used.
+[  8916.881] (II) libinput: PS/2 Generic Mouse: Step value 0 was provided, libinput Fallback acceleration function is used.
+[  8916.881] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio1/input/input14/event12"
+[  8916.881] (II) XINPUT: Adding extended input device "PS/2 Generic Mouse" (type: MOUSE, id 18)
+[  8916.882] (**) Option "AccelerationScheme" "none"
+[  8916.882] (**) PS/2 Generic Mouse: (accel) selected scheme none/0
+[  8916.882] (**) PS/2 Generic Mouse: (accel) acceleration factor: 2.000
+[  8916.882] (**) PS/2 Generic Mouse: (accel) acceleration threshold: 4
+[  8916.883] (II) event12 - PS/2 Generic Mouse: is tagged by udev as: Mouse
+[  8916.883] (II) event12 - PS/2 Generic Mouse: device is a pointer
+[  8916.884] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=3 (/dev/input/event15)
+[  8916.884] (II) No input driver specified, ignoring this device.
+[  8916.884] (II) This device may have been added with another device file.
+[  8916.885] (II) config/udev: Adding input device sof-hda-dsp HDMI/DP,pcm=4 (/dev/input/event21)
+[  8916.885] (II) No input driver specified, ignoring this device.
+[  8916.885] (II) This device may have been added with another device file.
+[  8916.885] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=7 (/dev/input/event16)
+[  8916.885] (II) No input driver specified, ignoring this device.
+[  8916.885] (II) This device may have been added with another device file.
+[  8916.885] (II) config/udev: Adding input device sof-hda-dsp Headphone Mic (/dev/input/event19)
+[  8916.885] (II) No input driver specified, ignoring this device.
+[  8916.885] (II) This device may have been added with another device file.
+[  8916.886] (II) config/udev: Adding input device HDA NVidia HDMI/DP,pcm=9 (/dev/input/event18)
+[  8916.886] (II) No input driver specified, ignoring this device.
+[  8916.886] (II) This device may have been added with another device file.
+[  8916.886] (II) config/udev: Adding input device sof-hda-dsp HDMI/DP,pcm=3 (/dev/input/event20)
+[  8916.886] (II) No input driver specified, ignoring this device.
+[  8916.886] (II) This device may have been added with another device file.
+[  8916.886] (II) config/udev: Adding input device sof-hda-dsp HDMI/DP,pcm=5 (/dev/input/event22)
+[  8916.886] (II) No input driver specified, ignoring this device.
+[  8916.886] (II) This device may have been added with another device file.
+[  8916.887] (II) config/udev: removing device AT Translated Set 2 keyboard
+[  8916.887] (**) Option "fd" "50"
+[  8916.887] (II) event2  - AT Translated Set 2 keyboard: device removed
+[  8916.887] (II) UnloadModule: "libinput"
+[  8916.887] (II) systemd-logind: releasing fd for 13:66
+[  8916.929] (II) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event2)
+[  8916.929] (**) AT Translated Set 2 keyboard: Applying InputClass "libinput keyboard catchall"
+[  8916.929] (**) AT Translated Set 2 keyboard: Applying InputClass "system-keyboard"
+[  8916.929] (II) Using input driver 'libinput' for 'AT Translated Set 2 keyboard'
+[  8916.929] (II) systemd-logind: got fd for /dev/input/event2 13:66 fd 50 paused 0
+[  8916.930] (**) AT Translated Set 2 keyboard: always reports core events
+[  8916.930] (**) Option "Device" "/dev/input/event2"
+[  8916.930] (II) event2  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[  8916.930] (II) event2  - AT Translated Set 2 keyboard: device is a keyboard
+[  8916.931] (II) event2  - AT Translated Set 2 keyboard: device removed
+[  8916.931] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio0/input/input2/event2"
+[  8916.931] (II) XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 17)
+[  8916.931] (**) Option "xkb_layout" "us"
+[  8916.931] (**) Option "xkb_variant" "dvp"
+[  8916.932] (II) event2  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[  8916.932] (II) event2  - AT Translated Set 2 keyboard: device is a keyboard
+[  8916.933] (II) config/udev: Adding input device PC Speaker (/dev/input/event11)
+[  8916.933] (II) No input driver specified, ignoring this device.
+[  8916.933] (II) This device may have been added with another device file.
+[  8916.933] (II) config/udev: removing device DELL0B54:00 06CB:CE62 Touchpad
+[  8916.933] (**) Option "fd" "56"
+[  8916.933] (II) event14 - DELL0B54:00 06CB:CE62 Touchpad: device removed
+[  8916.934] (II) UnloadModule: "libinput"
+[  8916.934] (II) systemd-logind: releasing fd for 13:78
+[  8916.999] (II) config/udev: Adding input device DELL0B54:00 06CB:CE62 Touchpad (/dev/input/event14)
+[  8916.999] (**) DELL0B54:00 06CB:CE62 Touchpad: Applying InputClass "libinput touchpad catchall"
+[  8916.999] (II) Using input driver 'libinput' for 'DELL0B54:00 06CB:CE62 Touchpad'
+[  8917.000] (II) systemd-logind: got fd for /dev/input/event14 13:78 fd 56 paused 0
+[  8917.000] (**) DELL0B54:00 06CB:CE62 Touchpad: always reports core events
+[  8917.000] (**) Option "Device" "/dev/input/event14"
+[  8917.001] (II) event14 - DELL0B54:00 06CB:CE62 Touchpad: is tagged by udev as: Touchpad
+[  8917.002] (II) event14 - DELL0B54:00 06CB:CE62 Touchpad: device is a touchpad
+[  8917.002] (II) event14 - DELL0B54:00 06CB:CE62 Touchpad: device removed
+[  8917.003] (II) libinput: DELL0B54:00 06CB:CE62 Touchpad: Step value 0 was provided, libinput Fallback acceleration function is used.
+[  8917.003] (II) libinput: DELL0B54:00 06CB:CE62 Touchpad: Step value 0 was provided, libinput Fallback acceleration function is used.
+[  8917.003] (II) libinput: DELL0B54:00 06CB:CE62 Touchpad: Step value 0 was provided, libinput Fallback acceleration function is used.
+[  8917.003] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:15.1/i2c_designware.1/i2c-14/i2c-DELL0B54:00/0018:06CB:CE62.0005/input/input19/event14"
+[  8917.003] (II) XINPUT: Adding extended input device "DELL0B54:00 06CB:CE62 Touchpad" (type: TOUCHPAD, id 14)
+[  8917.005] (**) Option "AccelerationScheme" "none"
+[  8917.005] (**) DELL0B54:00 06CB:CE62 Touchpad: (accel) selected scheme none/0
+[  8917.005] (**) DELL0B54:00 06CB:CE62 Touchpad: (accel) acceleration factor: 2.000
+[  8917.005] (**) DELL0B54:00 06CB:CE62 Touchpad: (accel) acceleration threshold: 4
+[  8917.006] (II) event14 - DELL0B54:00 06CB:CE62 Touchpad: is tagged by udev as: Touchpad
+[  8917.007] (II) event14 - DELL0B54:00 06CB:CE62 Touchpad: device is a touchpad
+[ 12006.389] (**) Option "fd" "85"
+[ 12006.389] (II) event1  - Power Button: device removed
+[ 12006.389] (**) Option "fd" "95"
+[ 12006.389] (II) event7  - Video Bus: device removed
+[ 12006.389] (**) Option "fd" "82"
+[ 12006.389] (II) event6  - Video Bus: device removed
+[ 12006.389] (**) Option "fd" "57"
+[ 12006.389] (II) event3  - RAPOO Rapoo 2.4G Wireless Device: device removed
+[ 12006.389] (**) Option "fd" "58"
+[ 12006.389] (II) event10 - Intel HID 5 button array: device removed
+[ 12006.389] (**) Option "fd" "55"
+[ 12006.389] (II) event9  - Intel HID events: device removed
+[ 12006.389] (**) Option "fd" "53"
+[ 12006.389] (**) Option "fd" "53"
+[ 12006.389] (II) event5  - RAPOO Rapoo 2.4G Wireless Device Consumer Control: device removed
+[ 12006.389] (**) Option "fd" "44"
+[ 12006.390] (II) event4  - RAPOO Rapoo 2.4G Wireless Device Mouse: device removed
+[ 12006.390] (**) Option "fd" "48"
+[ 12006.390] (II) event13 - DELL0B54:00 06CB:CE62 Mouse: device removed
+[ 12006.390] (**) Option "fd" "54"
+[ 12006.390] (**) Option "fd" "54"
+[ 12006.390] (II) event8  - DELL Technologies Keyboard: device removed
+[ 12006.390] (**) Option "fd" "47"
+[ 12006.390] (II) event12 - PS/2 Generic Mouse: device removed
+[ 12006.390] (**) Option "fd" "50"
+[ 12006.390] (II) event2  - AT Translated Set 2 keyboard: device removed
+[ 12006.390] (**) Option "fd" "56"
+[ 12006.390] (II) event14 - DELL0B54:00 06CB:CE62 Touchpad: device removed
+[ 12006.403] (II) UnloadModule: "libinput"
+[ 12006.403] (II) systemd-logind: releasing fd for 13:78
+[ 12006.403] (II) UnloadModule: "libinput"
+[ 12006.403] (II) systemd-logind: releasing fd for 13:66
+[ 12006.403] (II) UnloadModule: "libinput"
+[ 12006.403] (II) systemd-logind: releasing fd for 13:76
+[ 12006.404] (II) UnloadModule: "libinput"
+[ 12006.404] (II) systemd-logind: not releasing fd for 13:72, still in use
+[ 12006.404] (II) UnloadModule: "libinput"
+[ 12006.404] (II) systemd-logind: releasing fd for 13:72
+[ 12006.404] (II) UnloadModule: "libinput"
+[ 12006.404] (II) systemd-logind: releasing fd for 13:77
+[ 12006.404] (II) UnloadModule: "libinput"
+[ 12006.404] (II) systemd-logind: releasing fd for 13:68
+[ 12006.404] (II) UnloadModule: "libinput"
+[ 12006.404] (II) systemd-logind: not releasing fd for 13:69, still in use
+[ 12006.404] (II) UnloadModule: "libinput"
+[ 12006.404] (II) systemd-logind: releasing fd for 13:69
+[ 12006.405] (II) UnloadModule: "libinput"
+[ 12006.405] (II) systemd-logind: releasing fd for 13:73
+[ 12006.405] (II) UnloadModule: "libinput"
+[ 12006.405] (II) systemd-logind: releasing fd for 13:74
+[ 12006.406] (II) UnloadModule: "libinput"
+[ 12006.406] (II) systemd-logind: releasing fd for 13:67
+[ 12006.513] (II) UnloadModule: "libinput"
+[ 12006.513] (II) systemd-logind: releasing fd for 13:70
+[ 12006.517] (II) UnloadModule: "libinput"
+[ 12006.517] (II) systemd-logind: releasing fd for 13:71
+[ 12006.518] (II) UnloadModule: "libinput"
+[ 12006.518] (II) systemd-logind: releasing fd for 13:65
+[ 12007.544] (II) NVIDIA(GPU-0): Deleting GPU-0
+[ 12007.553] (WW) xf86CloseConsole: KDSETMODE failed: Input/output error
+[ 12007.553] (WW) xf86CloseConsole: VT_GETMODE failed: Input/output error
+[ 12007.574] (II) Server terminated successfully (0). Closing log file.
