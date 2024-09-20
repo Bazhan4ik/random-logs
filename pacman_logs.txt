@@ -1,0 +1,400 @@
+[2024-09-16T15:37:07-0400] [ALPM-SCRIPTLET] Creating group 'alpm' with GID 961.
+[2024-09-16T15:37:07-0400] [ALPM-SCRIPTLET] Creating user 'alpm' (Arch Linux Package Management) with UID 961 and GID 961.
+[2024-09-16T15:37:07-0400] [ALPM] running '30-systemd-daemon-reload-system.hook'...
+[2024-09-16T15:37:07-0400] [ALPM] running '30-systemd-daemon-reload-user.hook'...
+[2024-09-16T15:37:07-0400] [ALPM] running '30-systemd-tmpfiles.hook'...
+[2024-09-16T15:37:07-0400] [ALPM] running '30-systemd-udev-reload.hook'...
+[2024-09-16T15:37:08-0400] [ALPM] running '30-systemd-update.hook'...
+[2024-09-16T15:37:08-0400] [ALPM] running '30-update-mime-database.hook'...
+[2024-09-16T15:37:08-0400] [ALPM] running '60-depmod.hook'...
+[2024-09-16T15:37:09-0400] [ALPM] running '90-mkinitcpio-install.hook'...
+[2024-09-16T15:37:10-0400] [ALPM-SCRIPTLET] ==> Building image from preset: /etc/mkinitcpio.d/linux.preset: 'default'
+[2024-09-16T15:37:10-0400] [ALPM-SCRIPTLET] ==> Using default configuration file: '/etc/mkinitcpio.conf'
+[2024-09-16T15:37:10-0400] [ALPM-SCRIPTLET]   -> -k /boot/vmlinuz-linux -g /boot/initramfs-linux.img
+[2024-09-16T15:37:10-0400] [ALPM-SCRIPTLET] ==> Starting build: '6.10.10-arch1-1'
+[2024-09-16T15:37:10-0400] [ALPM-SCRIPTLET]   -> Running build hook: [base]
+[2024-09-16T15:37:10-0400] [ALPM-SCRIPTLET]   -> Running build hook: [udev]
+[2024-09-16T15:37:11-0400] [ALPM-SCRIPTLET]   -> Running build hook: [autodetect]
+[2024-09-16T15:37:11-0400] [ALPM-SCRIPTLET]   -> Running build hook: [microcode]
+[2024-09-16T15:37:11-0400] [ALPM-SCRIPTLET]   -> Running build hook: [modconf]
+[2024-09-16T15:37:11-0400] [ALPM-SCRIPTLET]   -> Running build hook: [kms]
+[2024-09-16T15:37:15-0400] [ALPM-SCRIPTLET]   -> Running build hook: [keyboard]
+[2024-09-16T15:37:15-0400] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: 'xhci_pci'
+[2024-09-16T15:37:15-0400] [ALPM-SCRIPTLET]   -> Running build hook: [keymap]
+[2024-09-16T15:37:15-0400] [ALPM-SCRIPTLET]   -> Running build hook: [consolefont]
+[2024-09-16T15:37:15-0400] [ALPM-SCRIPTLET] ==> WARNING: consolefont: no font found in configuration
+[2024-09-16T15:37:15-0400] [ALPM-SCRIPTLET]   -> Running build hook: [block]
+[2024-09-16T15:37:16-0400] [ALPM-SCRIPTLET]   -> Running build hook: [filesystems]
+[2024-09-16T15:37:16-0400] [ALPM-SCRIPTLET]   -> Running build hook: [fsck]
+[2024-09-16T15:37:16-0400] [ALPM-SCRIPTLET] ==> Generating module dependencies
+[2024-09-16T15:37:16-0400] [ALPM-SCRIPTLET] ==> Creating zstd-compressed initcpio image: '/boot/initramfs-linux.img'
+[2024-09-16T15:37:17-0400] [ALPM-SCRIPTLET]   -> Early uncompressed CPIO image generation successful
+[2024-09-16T15:37:17-0400] [ALPM-SCRIPTLET] ==> Initcpio image generation successful
+[2024-09-16T15:37:17-0400] [ALPM-SCRIPTLET] ==> Building image from preset: /etc/mkinitcpio.d/linux.preset: 'fallback'
+[2024-09-16T15:37:17-0400] [ALPM-SCRIPTLET] ==> Using default configuration file: '/etc/mkinitcpio.conf'
+[2024-09-16T15:37:17-0400] [ALPM-SCRIPTLET]   -> -k /boot/vmlinuz-linux -g /boot/initramfs-linux-fallback.img -S autodetect
+[2024-09-16T15:37:17-0400] [ALPM-SCRIPTLET] ==> Starting build: '6.10.10-arch1-1'
+[2024-09-16T15:37:17-0400] [ALPM-SCRIPTLET]   -> Running build hook: [base]
+[2024-09-16T15:37:18-0400] [ALPM-SCRIPTLET]   -> Running build hook: [udev]
+[2024-09-16T15:37:18-0400] [ALPM-SCRIPTLET]   -> Running build hook: [microcode]
+[2024-09-16T15:37:18-0400] [ALPM-SCRIPTLET]   -> Running build hook: [modconf]
+[2024-09-16T15:37:18-0400] [ALPM-SCRIPTLET]   -> Running build hook: [kms]
+[2024-09-16T15:37:27-0400] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: 'ast'
+[2024-09-16T15:37:33-0400] [ALPM-SCRIPTLET]   -> Running build hook: [keyboard]
+[2024-09-16T15:37:33-0400] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: 'xhci_pci'
+[2024-09-16T15:37:35-0400] [ALPM-SCRIPTLET]   -> Running build hook: [keymap]
+[2024-09-16T15:37:35-0400] [ALPM-SCRIPTLET]   -> Running build hook: [consolefont]
+[2024-09-16T15:37:35-0400] [ALPM-SCRIPTLET] ==> WARNING: consolefont: no font found in configuration
+[2024-09-16T15:37:35-0400] [ALPM-SCRIPTLET]   -> Running build hook: [block]
+[2024-09-16T15:37:36-0400] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: 'qed'
+[2024-09-16T15:37:36-0400] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: 'qla2xxx'
+[2024-09-16T15:37:37-0400] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: 'qla1280'
+[2024-09-16T15:37:37-0400] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: 'bfa'
+[2024-09-16T15:37:37-0400] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: 'wd719x'
+[2024-09-16T15:37:37-0400] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: 'aic94xx'
+[2024-09-16T15:37:40-0400] [ALPM-SCRIPTLET]   -> Running build hook: [filesystems]
+[2024-09-16T15:37:41-0400] [ALPM-SCRIPTLET]   -> Running build hook: [fsck]
+[2024-09-16T15:37:45-0400] [ALPM-SCRIPTLET] ==> Generating module dependencies
+[2024-09-16T15:37:45-0400] [ALPM-SCRIPTLET] ==> Creating zstd-compressed initcpio image: '/boot/initramfs-linux-fallback.img'
+[2024-09-16T15:37:46-0400] [ALPM-SCRIPTLET]   -> Early uncompressed CPIO image generation successful
+[2024-09-16T15:37:47-0400] [ALPM-SCRIPTLET] ==> Initcpio image generation successful
+[2024-09-16T15:37:47-0400] [ALPM] running '90-update-appstream-cache.hook'...
+[2024-09-16T15:37:49-0400] [ALPM-SCRIPTLET] ✔ Metadata cache was updated successfully.
+[2024-09-16T15:37:49-0400] [ALPM] running 'dbus-reload.hook'...
+[2024-09-16T15:37:49-0400] [ALPM] running 'gdk-pixbuf-query-loaders.hook'...
+[2024-09-16T15:37:49-0400] [ALPM] running 'glib-compile-schemas.hook'...
+[2024-09-16T15:37:49-0400] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2024-09-16T15:37:49-0400] [ALPM] running 'texinfo-install.hook'...
+[2024-09-16T15:37:50-0400] [ALPM] running 'update-desktop-database.hook'...
+[2024-09-16T16:01:00-0400] [PACMAN] Running '/usr/bin/pacman -U /home/chad/projects/other/dn/bisq/bisq-1.9.17-1-any.pkg.tar.zst'
+[2024-09-16T16:01:02-0400] [ALPM] transaction started
+[2024-09-16T16:01:02-0400] [ALPM] installed bisq (1.9.17-1)
+[2024-09-16T16:01:02-0400] [ALPM] transaction completed
+[2024-09-16T16:01:02-0400] [ALPM] running '30-systemd-update.hook'...
+[2024-09-16T16:01:02-0400] [ALPM] running 'update-desktop-database.hook'...
+[2024-09-19T23:38:33-0400] [PACMAN] Running 'pacman -Suy'
+[2024-09-19T23:38:33-0400] [PACMAN] synchronizing package lists
+[2024-09-19T23:38:34-0400] [PACMAN] starting full system upgrade
+[2024-09-19T23:39:52-0400] [ALPM] transaction started
+[2024-09-19T23:39:53-0400] [ALPM] removed tracker3-miners (3.7.3-2)
+[2024-09-19T23:39:53-0400] [ALPM] removed tracker3 (3.7.3-2)
+[2024-09-19T23:39:53-0400] [ALPM] upgraded adwaita-cursors (46.2-1 -> 47.0-1)
+[2024-09-19T23:39:53-0400] [ALPM] upgraded adwaita-icon-theme-legacy (46.2-1 -> 46.2-3)
+[2024-09-19T23:39:53-0400] [ALPM] upgraded adwaita-icon-theme (46.2-1 -> 47.0-1)
+[2024-09-19T23:39:53-0400] [ALPM] upgraded apr (1.7.4-1 -> 1.7.5-3)
+[2024-09-19T23:39:53-0400] [ALPM] upgraded apr-util (1.6.3-1 -> 1.6.3-2)
+[2024-09-19T23:39:53-0400] [ALPM] upgraded libsysprof-capture (46.0-4 -> 47.0-1)
+[2024-09-19T23:39:53-0400] [ALPM] upgraded glib2 (2.80.5-1 -> 2.82.0-1)
+[2024-09-19T23:39:53-0400] [ALPM] upgraded gsettings-system-schemas (46.1-2 -> 47.1-1)
+[2024-09-19T23:39:53-0400] [ALPM] upgraded gsettings-desktop-schemas (46.1-2 -> 47.1-1)
+[2024-09-19T23:39:53-0400] [ALPM] upgraded at-spi2-core (2.52.0-1 -> 2.54.0-2)
+[2024-09-19T23:39:53-0400] [ALPM] upgraded curl (8.10.0-1 -> 8.10.1-1)
+[2024-09-19T23:39:53-0400] [ALPM] upgraded gstreamer (1.24.7-1 -> 1.24.8-1)
+[2024-09-19T23:39:53-0400] [ALPM] upgraded kbd (2.6.4-2 -> 2.6.4-3)
+[2024-09-19T23:39:53-0400] [ALPM] upgraded json-c (0.17-2 -> 0.18-1)
+[2024-09-19T23:39:53-0400] [ALPM] upgraded gst-plugins-base-libs (1.24.7-1 -> 1.24.8-1)
+[2024-09-19T23:39:53-0400] [ALPM] upgraded gst-plugins-bad-libs (1.24.7-1 -> 1.24.8-1)
+[2024-09-19T23:39:53-0400] [ALPM] upgraded libjpeg-turbo (3.0.3-1 -> 3.0.4-1)
+[2024-09-19T23:39:53-0400] [ALPM] upgraded libtiff (4.6.0-6 -> 4.7.0-1)
+[2024-09-19T23:39:53-0400] [ALPM] upgraded librsvg (2:2.58.4-1 -> 2:2.59.0-1)
+[2024-09-19T23:39:53-0400] [ALPM] installed tinysparql (3.8.0-1)
+[2024-09-19T23:39:53-0400] [ALPM] upgraded gtk-update-icon-cache (1:4.14.5-1 -> 1:4.16.1-1)
+[2024-09-19T23:39:53-0400] [ALPM] upgraded gtk4 (1:4.14.5-1 -> 1:4.16.1-1)
+[2024-09-19T23:39:53-0400] [ALPM] upgraded libadwaita (1:1.5.4-1 -> 1:1.6.0-1)
+[2024-09-19T23:39:53-0400] [ALPM] upgraded baobab (46.0-1 -> 47.0-1)
+[2024-09-19T23:39:53-0400] [ALPM] upgraded libavif (1.1.1-1 -> 1.1.1-2)
+[2024-09-19T23:39:53-0400] [ALPM] upgraded webkitgtk-6.0 (2.44.4-1 -> 2.46.0-1)
+[2024-09-19T23:39:54-0400] [ALPM] upgraded epiphany (46.4-1 -> 47.0-1)
+[2024-09-19T23:39:54-0400] [ALPM] upgraded gtk3 (1:3.24.43-2 -> 1:3.24.43-3)
+[2024-09-19T23:39:54-0400] [ALPM] upgraded libgoa (3.50.5-1 -> 3.52.0-1)
+[2024-09-19T23:39:54-0400] [ALPM] upgraded webkit2gtk-4.1 (2.44.4-1 -> 2.46.0-1)
+[2024-09-19T23:39:54-0400] [ALPM] upgraded evolution-data-server (3.52.4-1 -> 3.54.0-1)
+[2024-09-19T23:39:55-0400] [ALPM] upgraded firefox (130.0-1 -> 130.0.1-1)
+[2024-09-19T23:39:55-0400] [ALPM] upgraded gawk (5.3.0-2 -> 5.3.1-1)
+[2024-09-19T23:39:55-0400] [ALPM] upgraded xdg-desktop-portal-gnome (46.2-2 -> 47.1-1)
+[2024-09-19T23:39:55-0400] [ALPM] upgraded gnome-session (46.0-2 -> 47.0.1-1)
+[2024-09-19T23:39:55-0400] [ALPM] upgraded libgirepository (1.80.1-3 -> 1.82.0-1)
+[2024-09-19T23:39:55-0400] [ALPM] upgraded gobject-introspection-runtime (1.80.1-3 -> 1.82.0-1)
+[2024-09-19T23:39:55-0400] [ALPM] installed js128 (128.2.0-1)
+[2024-09-19T23:39:55-0400] [ALPM] upgraded gjs (2:1.80.2-2 -> 2:1.82.0-1)
+[2024-09-19T23:39:55-0400] [ALPM] upgraded upower (1.90.5-2 -> 1.90.6-1)
+[2024-09-19T23:39:55-0400] [ALPM] upgraded gnome-settings-daemon (46.0-2 -> 47.1-1)
+[2024-09-19T23:39:55-0400] [ALPM] upgraded libgdm (46.2-2 -> 47.0-1)
+[2024-09-19T23:39:55-0400] [ALPM] upgraded mutter (46.5-1 -> 47.0-1)
+[2024-09-19T23:39:55-0400] [ALPM] upgraded gnome-shell (1:46.5-1 -> 1:47.0-1)
+[2024-09-19T23:39:55-0400] [ALPM] upgraded gdm (46.2-2 -> 47.0-1)
+[2024-09-19T23:39:55-0400] [ALPM] upgraded ghostscript (10.03.1-1 -> 10.04.0-1)
+[2024-09-19T23:39:55-0400] [ALPM] upgraded glibmm-2.68 (2.80.1-1 -> 2.82.0-1)
+[2024-09-19T23:39:55-0400] [ALPM] upgraded glycin (1.0.1-2 -> 1.1.1-1)
+[2024-09-19T23:39:55-0400] [ALPM] upgraded gnome-backgrounds (46.0-1 -> 47.0-1)
+[2024-09-19T23:39:55-0400] [ALPM] upgraded gnome-bluetooth-3.0 (46.1-1 -> 47.0-2)
+[2024-09-19T23:39:55-0400] [ALPM] upgraded gtksourceview5 (5.12.1-1 -> 5.14.0-1)
+[2024-09-19T23:39:55-0400] [ALPM] upgraded gnome-calculator (46.1-1 -> 47.0-1)
+[2024-09-19T23:39:55-0400] [ALPM] upgraded libedataserverui4 (3.52.4-1 -> 3.54.0-1)
+[2024-09-19T23:39:55-0400] [ALPM] upgraded gnome-calendar (46.1-2 -> 47.0-1)
+[2024-09-19T23:39:55-0400] [ALPM] upgraded gnome-characters (46.0-2 -> 47.0-1)
+[2024-09-19T23:39:55-0400] [ALPM] upgraded gnome-connections (46.0-3 -> 47.0-1)
+[2024-09-19T23:39:55-0400] [ALPM] upgraded vte-common (0.76.4-1 -> 0.78.0-1)
+[2024-09-19T23:39:55-0400] [ALPM] upgraded vte4 (0.76.4-1 -> 0.78.0-1)
+[2024-09-19T23:39:55-0400] [ALPM] upgraded gnome-console (46.0-2 -> 47.1-1)
+[2024-09-19T23:39:55-0400] [ALPM] upgraded gnome-online-accounts (3.50.5-1 -> 3.52.0-1)
+[2024-09-19T23:39:55-0400] [ALPM] upgraded gnome-contacts (46.0-1 -> 47.0-1)
+[2024-09-19T23:39:55-0400] [ALPM] upgraded tecla (46.0-1 -> 47.0-1)
+[2024-09-19T23:39:55-0400] [ALPM] upgraded gnome-keybindings (46.4-1 -> 47.0.1-1)
+[2024-09-19T23:39:55-0400] [ALPM] upgraded gnupg (2.4.5-4 -> 2.4.5-5)
+[2024-09-19T23:39:56-0400] [ALPM] upgraded gnome-control-center (46.4-1 -> 47.0.1-1)
+[2024-09-19T23:39:56-0400] [ALPM] upgraded gnome-font-viewer (46.0-2 -> 47.0-1)
+[2024-09-19T23:39:56-0400] [ALPM] upgraded libshumate (1.2.3-1 -> 1.3.0-1)
+[2024-09-19T23:39:56-0400] [ALPM] upgraded gnome-maps (46.11-1 -> 47.0-1)
+[2024-09-19T23:39:56-0400] [ALPM] upgraded gst-plugins-base (1.24.7-1 -> 1.24.8-1)
+[2024-09-19T23:39:56-0400] [ALPM] upgraded gst-plugins-good (1.24.7-1 -> 1.24.8-1)
+[2024-09-19T23:39:56-0400] [ALPM] upgraded poppler (24.09.0-1 -> 24.09.0-2)
+[2024-09-19T23:39:56-0400] [ALPM] upgraded poppler-glib (24.09.0-1 -> 24.09.0-2)
+[2024-09-19T23:39:56-0400] [ALPM] installed localsearch (3.8.0-1)
+[2024-09-19T23:39:56-0400] [ALPM] upgraded python-gobject (3.48.2-2 -> 3.50.0-1)
+[2024-09-19T23:39:56-0400] [ALPM] upgraded gst-plugins-bad (1.24.7-1 -> 1.24.8-1)
+[2024-09-19T23:39:56-0400] [ALPM] upgraded gnome-music (1:46.1-1 -> 1:47.0-1)
+[2024-09-19T23:39:56-0400] [ALPM] upgraded gnome-remote-desktop (46.5-1 -> 47.0-2)
+[2024-09-19T23:39:56-0400] [ALPM] upgraded gnome-shell-extensions (46.2-1 -> 47.0-1)
+[2024-09-19T23:39:56-0400] [ALPM] installed gnome-app-list (1.0-1)
+[2024-09-19T23:39:56-0400] [ALPM] upgraded gnome-software (46.5-1 -> 47.0-1)
+[2024-09-19T23:39:56-0400] [ALPM] upgraded gtkmm-4.0 (4.14.0-1 -> 4.16.0-1)
+[2024-09-19T23:39:56-0400] [ALPM] upgraded gnome-system-monitor (46.0-2 -> 47.0-2)
+[2024-09-19T23:39:56-0400] [ALPM] installed libspelling (0.4.0-1)
+[2024-09-19T23:39:56-0400] [ALPM] upgraded gnome-text-editor (46.3-2 -> 47.0-1)
+[2024-09-19T23:39:56-0400] [ALPM] upgraded gnome-tour (46.0-1 -> 47.0-1)
+[2024-09-19T23:39:57-0400] [ALPM] upgraded gnome-user-docs (46.4-1 -> 47.0-1)
+[2024-09-19T23:39:57-0400] [ALPM] upgraded gnome-user-share (43.0-2 -> 47.0-1)
+[2024-09-19T23:39:57-0400] [ALPM] upgraded gnome-weather (46.0-1 -> 47.0-1)
+[2024-09-19T23:39:57-0400] [ALPM] upgraded python-trove-classifiers (2024.7.2-1 -> 2024.9.12-1)
+[2024-09-19T23:39:57-0400] [ALPM] upgraded gobject-introspection (1.80.1-3 -> 1.82.0-1)
+[2024-09-19T23:39:57-0400] [ALPM] upgraded gst-devtools-libs (1.24.7-1 -> 1.24.8-1)
+[2024-09-19T23:39:57-0400] [ALPM] upgraded gst-python (1.24.7-1 -> 1.24.8-1)
+[2024-09-19T23:39:57-0400] [ALPM] upgraded gst-editing-services (1.24.7-1 -> 1.24.8-1)
+[2024-09-19T23:39:57-0400] [ALPM] upgraded gst-plugin-gtk (1.24.7-1 -> 1.24.8-1)
+[2024-09-19T23:39:57-0400] [ALPM] upgraded gvfs (1.54.2-1 -> 1.56.0-1)
+[2024-09-19T23:39:57-0400] [ALPM] upgraded gvfs-afc (1.54.2-1 -> 1.56.0-1)
+[2024-09-19T23:39:57-0400] [ALPM] upgraded gvfs-goa (1.54.2-1 -> 1.56.0-1)
+[2024-09-19T23:39:57-0400] [ALPM] upgraded gvfs-google (1.54.2-1 -> 1.56.0-1)
+[2024-09-19T23:39:57-0400] [ALPM] upgraded libheif (1.18.2-1 -> 1.18.2-2)
+[2024-09-19T23:39:57-0400] [ALPM] upgraded gvfs-gphoto2 (1.54.2-1 -> 1.56.0-1)
+[2024-09-19T23:39:57-0400] [ALPM] upgraded gvfs-mtp (1.54.2-1 -> 1.56.0-1)
+[2024-09-19T23:39:57-0400] [ALPM] upgraded gvfs-nfs (1.54.2-1 -> 1.56.0-1)
+[2024-09-19T23:39:57-0400] [ALPM] upgraded gvfs-onedrive (1.54.2-1 -> 1.56.0-1)
+[2024-09-19T23:39:57-0400] [ALPM] upgraded gvfs-smb (1.54.2-1 -> 1.56.0-1)
+[2024-09-19T23:39:57-0400] [ALPM] upgraded iproute2 (6.10.0-2 -> 6.11.0-1)
+[2024-09-19T23:39:57-0400] [ALPM] upgraded libnautilus-extension (46.2-2 -> 47.0-2)
+[2024-09-19T23:39:57-0400] [ALPM] upgraded libraw (0.21.2-1 -> 0.21.3-1)
+[2024-09-19T23:39:58-0400] [ALPM] upgraded libreoffice-fresh (24.8.1-1 -> 24.8.1-2)
+[2024-09-19T23:39:58-0400] [ALPM] upgraded libsynctex (2024.2-2 -> 2024.2-3)
+[2024-09-19T23:39:58-0400] [ALPM] upgraded loupe (46.2-1 -> 47.0-1)
+[2024-09-19T23:39:58-0400] [ALPM] upgraded mpv (1:0.38.0-7 -> 1:0.38.0-8)
+[2024-09-19T23:39:58-0400] [ALPM] upgraded nautilus (46.2-2 -> 47.0-2)
+[2024-09-19T23:39:59-0400] [ALPM] upgraded neovim (0.10.1-4 -> 0.10.1-5)
+[2024-09-19T23:39:59-0400] [ALPM] upgraded orca (46.2-1 -> 47.0-1)
+[2024-09-19T23:39:59-0400] [ALPM] upgraded ostree (2024.7-2 -> 2024.7-4)
+[2024-09-19T23:39:59-0400] [ALPM] upgraded pybind11 (2.13.5-1 -> 2.13.6-1)
+[2024-09-19T23:39:59-0400] [ALPM] upgraded rygel (1:0.42.6-1 -> 1:0.44.0-1)
+[2024-09-19T23:39:59-0400] [ALPM] upgraded snapshot (46.3-1 -> 47.0.1-1)
+[2024-09-19T23:39:59-0400] [ALPM] upgraded sushi (46.0-1 -> 46.0-2)
+[2024-09-19T23:39:59-0400] [ALPM] transaction completed
+[2024-09-19T23:40:00-0400] [ALPM] running '20-systemd-sysusers.hook'...
+[2024-09-19T23:40:00-0400] [ALPM] running '30-systemd-daemon-reload-system.hook'...
+[2024-09-19T23:40:00-0400] [ALPM] running '30-systemd-daemon-reload-user.hook'...
+[2024-09-19T23:40:00-0400] [ALPM] running '30-systemd-hwdb.hook'...
+[2024-09-19T23:40:01-0400] [ALPM] running '30-systemd-tmpfiles.hook'...
+[2024-09-19T23:40:01-0400] [ALPM] running '30-systemd-udev-reload.hook'...
+[2024-09-19T23:40:01-0400] [ALPM] running '30-systemd-update.hook'...
+[2024-09-19T23:40:01-0400] [ALPM] running '30-update-mime-database.hook'...
+[2024-09-19T23:40:02-0400] [ALPM] running '90-mkinitcpio-install.hook'...
+[2024-09-19T23:40:02-0400] [ALPM-SCRIPTLET] ==> Building image from preset: /etc/mkinitcpio.d/linux.preset: 'default'
+[2024-09-19T23:40:02-0400] [ALPM-SCRIPTLET] ==> Using default configuration file: '/etc/mkinitcpio.conf'
+[2024-09-19T23:40:02-0400] [ALPM-SCRIPTLET]   -> -k /boot/vmlinuz-linux -g /boot/initramfs-linux.img
+[2024-09-19T23:40:02-0400] [ALPM-SCRIPTLET] ==> Starting build: '6.10.10-arch1-1'
+[2024-09-19T23:40:02-0400] [ALPM-SCRIPTLET]   -> Running build hook: [base]
+[2024-09-19T23:40:02-0400] [ALPM-SCRIPTLET]   -> Running build hook: [udev]
+[2024-09-19T23:40:02-0400] [ALPM-SCRIPTLET]   -> Running build hook: [autodetect]
+[2024-09-19T23:40:02-0400] [ALPM-SCRIPTLET]   -> Running build hook: [microcode]
+[2024-09-19T23:40:02-0400] [ALPM-SCRIPTLET]   -> Running build hook: [modconf]
+[2024-09-19T23:40:02-0400] [ALPM-SCRIPTLET]   -> Running build hook: [kms]
+[2024-09-19T23:40:06-0400] [ALPM-SCRIPTLET]   -> Running build hook: [keyboard]
+[2024-09-19T23:40:06-0400] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: 'xhci_pci'
+[2024-09-19T23:40:06-0400] [ALPM-SCRIPTLET]   -> Running build hook: [keymap]
+[2024-09-19T23:40:06-0400] [ALPM-SCRIPTLET]   -> Running build hook: [consolefont]
+[2024-09-19T23:40:06-0400] [ALPM-SCRIPTLET] ==> WARNING: consolefont: no font found in configuration
+[2024-09-19T23:40:06-0400] [ALPM-SCRIPTLET]   -> Running build hook: [block]
+[2024-09-19T23:40:07-0400] [ALPM-SCRIPTLET]   -> Running build hook: [filesystems]
+[2024-09-19T23:40:07-0400] [ALPM-SCRIPTLET]   -> Running build hook: [fsck]
+[2024-09-19T23:40:07-0400] [ALPM-SCRIPTLET] ==> Generating module dependencies
+[2024-09-19T23:40:07-0400] [ALPM-SCRIPTLET] ==> Creating zstd-compressed initcpio image: '/boot/initramfs-linux.img'
+[2024-09-19T23:40:08-0400] [ALPM-SCRIPTLET]   -> Early uncompressed CPIO image generation successful
+[2024-09-19T23:40:08-0400] [ALPM-SCRIPTLET] ==> Initcpio image generation successful
+[2024-09-19T23:40:08-0400] [ALPM-SCRIPTLET] ==> Building image from preset: /etc/mkinitcpio.d/linux.preset: 'fallback'
+[2024-09-19T23:40:08-0400] [ALPM-SCRIPTLET] ==> Using default configuration file: '/etc/mkinitcpio.conf'
+[2024-09-19T23:40:08-0400] [ALPM-SCRIPTLET]   -> -k /boot/vmlinuz-linux -g /boot/initramfs-linux-fallback.img -S autodetect
+[2024-09-19T23:40:08-0400] [ALPM-SCRIPTLET] ==> Starting build: '6.10.10-arch1-1'
+[2024-09-19T23:40:08-0400] [ALPM-SCRIPTLET]   -> Running build hook: [base]
+[2024-09-19T23:40:08-0400] [ALPM-SCRIPTLET]   -> Running build hook: [udev]
+[2024-09-19T23:40:08-0400] [ALPM-SCRIPTLET]   -> Running build hook: [microcode]
+[2024-09-19T23:40:08-0400] [ALPM-SCRIPTLET]   -> Running build hook: [modconf]
+[2024-09-19T23:40:08-0400] [ALPM-SCRIPTLET]   -> Running build hook: [kms]
+[2024-09-19T23:40:13-0400] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: 'ast'
+[2024-09-19T23:40:18-0400] [ALPM-SCRIPTLET]   -> Running build hook: [keyboard]
+[2024-09-19T23:40:18-0400] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: 'xhci_pci'
+[2024-09-19T23:40:19-0400] [ALPM-SCRIPTLET]   -> Running build hook: [keymap]
+[2024-09-19T23:40:19-0400] [ALPM-SCRIPTLET]   -> Running build hook: [consolefont]
+[2024-09-19T23:40:19-0400] [ALPM-SCRIPTLET] ==> WARNING: consolefont: no font found in configuration
+[2024-09-19T23:40:19-0400] [ALPM-SCRIPTLET]   -> Running build hook: [block]
+[2024-09-19T23:40:19-0400] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: 'qed'
+[2024-09-19T23:40:20-0400] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: 'qla2xxx'
+[2024-09-19T23:40:20-0400] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: 'qla1280'
+[2024-09-19T23:40:20-0400] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: 'bfa'
+[2024-09-19T23:40:20-0400] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: 'wd719x'
+[2024-09-19T23:40:20-0400] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: 'aic94xx'
+[2024-09-19T23:40:22-0400] [ALPM-SCRIPTLET]   -> Running build hook: [filesystems]
+[2024-09-19T23:40:23-0400] [ALPM-SCRIPTLET]   -> Running build hook: [fsck]
+[2024-09-19T23:40:24-0400] [ALPM-SCRIPTLET] ==> Generating module dependencies
+[2024-09-19T23:40:25-0400] [ALPM-SCRIPTLET] ==> Creating zstd-compressed initcpio image: '/boot/initramfs-linux-fallback.img'
+[2024-09-19T23:40:25-0400] [ALPM-SCRIPTLET]   -> Early uncompressed CPIO image generation successful
+[2024-09-19T23:40:25-0400] [ALPM-SCRIPTLET] ==> Initcpio image generation successful
+[2024-09-19T23:40:25-0400] [ALPM] running '90-update-appstream-cache.hook'...
+[2024-09-19T23:40:27-0400] [ALPM-SCRIPTLET] ✔ Metadata cache was updated successfully.
+[2024-09-19T23:40:27-0400] [ALPM] running 'dbus-reload.hook'...
+[2024-09-19T23:40:28-0400] [ALPM] running 'gdk-pixbuf-query-loaders.hook'...
+[2024-09-19T23:40:28-0400] [ALPM] running 'gio-querymodules.hook'...
+[2024-09-19T23:40:28-0400] [ALPM] running 'glib-compile-schemas.hook'...
+[2024-09-19T23:40:28-0400] [ALPM] running 'gtk-query-immodules-3.0.hook'...
+[2024-09-19T23:40:28-0400] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2024-09-19T23:40:28-0400] [ALPM] running 'gtk4-querymodules.hook'...
+[2024-09-19T23:40:28-0400] [ALPM] running 'gvfsd.hook'...
+[2024-09-19T23:40:28-0400] [ALPM] running 'texinfo-install.hook'...
+[2024-09-19T23:40:29-0400] [ALPM] running 'update-desktop-database.hook'...
+[2024-09-19T23:48:49-0400] [PACMAN] Running '/usr/bin/pacman --color never -U /home/chad/Downloads/aur/google-chrome/google-chrome-129.0.6668.58-1-x86_64.pkg.tar.zst'
+[2024-09-19T23:48:50-0400] [ALPM] transaction started
+[2024-09-19T23:48:50-0400] [ALPM] upgraded google-chrome (126.0.6478.126-1 -> 129.0.6668.58-1)
+[2024-09-19T23:48:50-0400] [ALPM] transaction completed
+[2024-09-19T23:48:50-0400] [ALPM] running '30-systemd-update.hook'...
+[2024-09-19T23:48:50-0400] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2024-09-19T23:48:50-0400] [ALPM] running 'update-desktop-database.hook'...
+[2024-09-19T23:49:26-0400] [PACMAN] Running 'pacman -U google-chrome-129.0.6668.58-1-x86_64.pkg.tar.zst'
+[2024-09-19T23:49:27-0400] [ALPM] transaction started
+[2024-09-19T23:49:27-0400] [ALPM] reinstalled google-chrome (129.0.6668.58-1)
+[2024-09-19T23:49:27-0400] [ALPM] transaction completed
+[2024-09-19T23:49:27-0400] [ALPM] running '30-systemd-update.hook'...
+[2024-09-19T23:49:27-0400] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2024-09-19T23:49:27-0400] [ALPM] running 'update-desktop-database.hook'...
+[2024-09-20T12:33:58-0400] [PACMAN] Running 'pacman -Suy'
+[2024-09-20T12:33:58-0400] [PACMAN] synchronizing package lists
+[2024-09-20T12:33:59-0400] [PACMAN] starting full system upgrade
+[2024-09-20T12:34:12-0400] [ALPM] transaction started
+[2024-09-20T12:34:12-0400] [ALPM] upgraded electron30 (30.5.1-1 -> 30.5.1-3)
+[2024-09-20T12:34:12-0400] [ALPM] upgraded python-numpy (2.0.1-1 -> 2.1.1-1)
+[2024-09-20T12:34:13-0400] [ALPM] transaction completed
+[2024-09-20T12:34:13-0400] [ALPM] running '30-systemd-update.hook'...
+[2024-09-20T12:34:13-0400] [ALPM] running 'update-desktop-database.hook'...
+[2024-09-20T13:02:21-0400] [PACMAN] Running 'pacman -Rns google-chrome'
+[2024-09-20T13:02:23-0400] [ALPM] transaction started
+[2024-09-20T13:02:23-0400] [ALPM] removed google-chrome (129.0.6668.58-1)
+[2024-09-20T13:02:23-0400] [ALPM] transaction completed
+[2024-09-20T13:02:23-0400] [ALPM] running '30-systemd-update.hook'...
+[2024-09-20T13:02:23-0400] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2024-09-20T13:02:23-0400] [ALPM] running 'update-desktop-database.hook'...
+[2024-09-20T13:29:27-0400] [PACMAN] Running 'pacman -S gnome'
+[2024-09-20T13:29:35-0400] [ALPM] transaction started
+[2024-09-20T13:29:35-0400] [ALPM] reinstalled baobab (47.0-1)
+[2024-09-20T13:29:35-0400] [ALPM] reinstalled epiphany (47.0-1)
+[2024-09-20T13:29:35-0400] [ALPM] reinstalled gvfs (1.56.0-1)
+[2024-09-20T13:29:35-0400] [ALPM] reinstalled evince (46.3.1-2)
+[2024-09-20T13:29:35-0400] [ALPM] reinstalled gnome-keyring (1:46.2-1)
+[2024-09-20T13:29:35-0400] [ALPM] reinstalled xdg-desktop-portal-gnome (47.1-1)
+[2024-09-20T13:29:35-0400] [ALPM] reinstalled gnome-session (47.0.1-1)
+[2024-09-20T13:29:35-0400] [ALPM] reinstalled gnome-settings-daemon (47.1-1)
+[2024-09-20T13:29:35-0400] [ALPM] reinstalled gnome-shell (1:47.0-1)
+[2024-09-20T13:29:35-0400] [ALPM] reinstalled gdm (47.0-1)
+[2024-09-20T13:29:35-0400] [ALPM] reinstalled gnome-backgrounds (47.0-1)
+[2024-09-20T13:29:36-0400] [ALPM] reinstalled gnome-calculator (47.0-1)
+[2024-09-20T13:29:36-0400] [ALPM] reinstalled gnome-calendar (47.0-1)
+[2024-09-20T13:29:36-0400] [ALPM] reinstalled gnome-characters (47.0-1)
+[2024-09-20T13:29:36-0400] [ALPM] reinstalled gnome-clocks (46.0-1)
+[2024-09-20T13:29:36-0400] [ALPM] reinstalled gnome-color-manager (3.36.0+r62+g82000f1d-1)
+[2024-09-20T13:29:36-0400] [ALPM] reinstalled gnome-connections (47.0-1)
+[2024-09-20T13:29:36-0400] [ALPM] reinstalled gnome-console (47.1-1)
+[2024-09-20T13:29:36-0400] [ALPM] reinstalled gnome-contacts (47.0-1)
+[2024-09-20T13:29:36-0400] [ALPM] reinstalled tecla (47.0-1)
+[2024-09-20T13:29:36-0400] [ALPM] reinstalled gnome-control-center (47.0.1-1)
+[2024-09-20T13:29:36-0400] [ALPM] reinstalled gnome-disk-utility (46.1-1)
+[2024-09-20T13:29:36-0400] [ALPM] reinstalled gnome-font-viewer (47.0-1)
+[2024-09-20T13:29:36-0400] [ALPM] reinstalled gnome-logs (45.0-1)
+[2024-09-20T13:29:36-0400] [ALPM] reinstalled gnome-maps (47.0-1)
+[2024-09-20T13:29:36-0400] [ALPM] reinstalled gnome-menus (3.36.0-3)
+[2024-09-20T13:29:36-0400] [ALPM] reinstalled grilo-plugins (1:0.3.16-1)
+[2024-09-20T13:29:36-0400] [ALPM] reinstalled gnome-music (1:47.0-1)
+[2024-09-20T13:29:36-0400] [ALPM] reinstalled gnome-remote-desktop (47.0-2)
+[2024-09-20T13:29:36-0400] [ALPM] reinstalled gnome-shell-extensions (47.0-1)
+[2024-09-20T13:29:36-0400] [ALPM] reinstalled gnome-software (47.0-1)
+[2024-09-20T13:29:36-0400] [ALPM] reinstalled gnome-system-monitor (47.0-2)
+[2024-09-20T13:29:36-0400] [ALPM] reinstalled gnome-text-editor (47.0-1)
+[2024-09-20T13:29:36-0400] [ALPM] reinstalled gnome-tour (47.0-1)
+[2024-09-20T13:29:36-0400] [ALPM] reinstalled yelp (42.2-2)
+[2024-09-20T13:29:36-0400] [ALPM] reinstalled gnome-user-docs (47.0-1)
+[2024-09-20T13:29:36-0400] [ALPM] reinstalled gnome-user-share (47.0-1)
+[2024-09-20T13:29:36-0400] [ALPM] reinstalled gnome-weather (47.0-1)
+[2024-09-20T13:29:36-0400] [ALPM] reinstalled gvfs-afc (1.56.0-1)
+[2024-09-20T13:29:36-0400] [ALPM] installed gvfs-dnssd (1.56.0-1)
+[2024-09-20T13:29:36-0400] [ALPM] reinstalled gvfs-goa (1.56.0-1)
+[2024-09-20T13:29:36-0400] [ALPM] reinstalled gvfs-google (1.56.0-1)
+[2024-09-20T13:29:36-0400] [ALPM] reinstalled gvfs-gphoto2 (1.56.0-1)
+[2024-09-20T13:29:36-0400] [ALPM] reinstalled gvfs-mtp (1.56.0-1)
+[2024-09-20T13:29:36-0400] [ALPM] reinstalled gvfs-nfs (1.56.0-1)
+[2024-09-20T13:29:37-0400] [ALPM] reinstalled gvfs-onedrive (1.56.0-1)
+[2024-09-20T13:29:37-0400] [ALPM] reinstalled gvfs-smb (1.56.0-1)
+[2024-09-20T13:29:37-0400] [ALPM] installed python-defusedxml (0.7.1-6)
+[2024-09-20T13:29:37-0400] [ALPM] installed wsdd (0.8-2)
+[2024-09-20T13:29:37-0400] [ALPM] installed gvfs-wsdd (1.56.0-1)
+[2024-09-20T13:29:37-0400] [ALPM] reinstalled loupe (47.0-1)
+[2024-09-20T13:29:37-0400] [ALPM] reinstalled malcontent (0.12.0-1)
+[2024-09-20T13:29:37-0400] [ALPM] reinstalled nautilus (47.0-2)
+[2024-09-20T13:29:37-0400] [ALPM] reinstalled orca (47.0-1)
+[2024-09-20T13:29:37-0400] [ALPM] reinstalled rygel (1:0.44.0-1)
+[2024-09-20T13:29:37-0400] [ALPM] reinstalled simple-scan (46.0-2)
+[2024-09-20T13:29:37-0400] [ALPM] reinstalled snapshot (47.0.1-1)
+[2024-09-20T13:29:37-0400] [ALPM] reinstalled sushi (46.0-2)
+[2024-09-20T13:29:37-0400] [ALPM] reinstalled totem (43.0-3)
+[2024-09-20T13:29:37-0400] [ALPM] reinstalled xdg-user-dirs-gtk (0.11-3)
+[2024-09-20T13:29:37-0400] [ALPM] transaction completed
+[2024-09-20T13:29:38-0400] [ALPM] running '20-systemd-sysusers.hook'...
+[2024-09-20T13:29:38-0400] [ALPM] running '30-systemd-daemon-reload-system.hook'...
+[2024-09-20T13:29:38-0400] [ALPM] running '30-systemd-daemon-reload-user.hook'...
+[2024-09-20T13:29:38-0400] [ALPM] running '30-systemd-tmpfiles.hook'...
+[2024-09-20T13:29:38-0400] [ALPM] running '30-systemd-udev-reload.hook'...
+[2024-09-20T13:29:39-0400] [ALPM] running '30-systemd-update.hook'...
+[2024-09-20T13:29:39-0400] [ALPM] running '30-update-mime-database.hook'...
+[2024-09-20T13:29:39-0400] [ALPM] running '90-update-appstream-cache.hook'...
+[2024-09-20T13:29:41-0400] [ALPM-SCRIPTLET] ✔ Metadata cache was updated successfully.
+[2024-09-20T13:29:41-0400] [ALPM] running 'accounts-daemon-restart.hook'...
+[2024-09-20T13:29:41-0400] [ALPM] running 'dbus-reload.hook'...
+[2024-09-20T13:29:41-0400] [ALPM] running 'gio-querymodules.hook'...
+[2024-09-20T13:29:41-0400] [ALPM] running 'glib-compile-schemas.hook'...
+[2024-09-20T13:29:41-0400] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2024-09-20T13:29:41-0400] [ALPM] running 'gvfsd.hook'...
+[2024-09-20T13:29:42-0400] [ALPM] running 'update-desktop-database.hook'...
+[2024-09-20T13:40:40-0400] [PACMAN] Running 'pacman -S tmux'
+[2024-09-20T13:40:43-0400] [ALPM] transaction started
+[2024-09-20T13:40:43-0400] [ALPM] installed libutempter (1.2.1-4)
+[2024-09-20T13:40:43-0400] [ALPM] installed tmux (3.4-10)
+[2024-09-20T13:40:43-0400] [ALPM] transaction completed
+[2024-09-20T13:40:43-0400] [ALPM] running '30-systemd-tmpfiles.hook'...
+[2024-09-20T13:40:43-0400] [ALPM] running '30-systemd-update.hook'...
+[2024-09-20T14:09:45-0400] [PACMAN] Running 'pacman -S gnome-session'
+[2024-09-20T14:09:46-0400] [ALPM] transaction started
+[2024-09-20T14:09:46-0400] [ALPM] reinstalled gnome-session (47.0.1-1)
+[2024-09-20T14:09:46-0400] [ALPM] transaction completed
+[2024-09-20T14:09:46-0400] [ALPM] running '30-systemd-daemon-reload-user.hook'...
+[2024-09-20T14:09:47-0400] [ALPM] running '30-systemd-update.hook'...
+[2024-09-20T14:09:47-0400] [ALPM] running 'glib-compile-schemas.hook'...
+[2024-09-20T14:35:59-0400] [PACMAN] Running 'pacman -S xorg-server'
+[2024-09-20T14:36:01-0400] [ALPM] transaction started
+[2024-09-20T14:36:01-0400] [ALPM] reinstalled xorg-server (21.1.13-1)
+[2024-09-20T14:36:01-0400] [ALPM] transaction completed
+[2024-09-20T14:36:01-0400] [ALPM] running '30-systemd-update.hook'...
+[2024-09-20T14:39:29-0400] [PACMAN] Running 'pacman -Rs gnome'

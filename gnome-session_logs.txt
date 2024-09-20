@@ -1,0 +1,64 @@
+Sep 18 18:01:14 bazhan gnome-session-binary[955]: WARNING: Could not check if unit gnome-session-x11@gnome-login.target is active: Error calling StartServiceByName for org.freedesktop.systemd1: Process org.freedesktop.systemd1 exited with status 1
+Sep 18 18:01:15 bazhan gnome-session-binary[955]: Entering running state
+Sep 18 18:09:09 bazhan gnome-session-binary[1529]: Entering running state
+Sep 18 18:09:09 bazhan gnome-session-binary[1529]: GnomeDesktop-WARNING: Could not create transient scope for PID 1720: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+-- Boot e01afa27d6b84730a046756449158776 --
+Sep 19 17:13:12 bazhan gnome-session-binary[942]: WARNING: Could not check if unit gnome-session-x11@gnome-login.target is active: Error calling StartServiceByName for org.freedesktop.systemd1: Process org.freedesktop.systemd1 exited with status 1
+Sep 19 17:13:13 bazhan gnome-session-binary[942]: Entering running state
+Sep 19 17:13:42 bazhan gnome-session-binary[1484]: Entering running state
+Sep 19 17:13:42 bazhan gnome-session-binary[1484]: GnomeDesktop-WARNING: Could not create transient scope for PID 1656: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+-- Boot 1ea3ed88d02c4895b912a3bf838c1d6a --
+Sep 20 12:06:54 bazhan gnome-session-binary[941]: WARNING: Could not check if unit gnome-session-x11@gnome-login.target is active: Error calling StartServiceByName for org.freedesktop.systemd1: Process org.freedesktop.systemd1 exited with status 1
+Sep 20 12:06:55 bazhan gnome-session-binary[941]: WARNING: Application 'org.gnome.Shell.desktop' killed by signal 11
+Sep 20 12:06:56 bazhan gnome-session-binary[941]: WARNING: Could not retrieve current screensaver active state: GDBus.Error:org.freedesktop.DBus.Error.NoReply: Message recipient disconnected from message bus without replying
+Sep 20 12:06:57 bazhan gnome-session-binary[941]: WARNING: Application 'org.gnome.Shell.desktop' killed by signal 11
+Sep 20 12:06:57 bazhan gnome-session-binary[941]: WARNING: App 'org.gnome.Shell.desktop' respawning too quickly
+Sep 20 12:06:57 bazhan gnome-session-binary[941]: Unrecoverable failure in required component org.gnome.Shell.desktop
+Sep 20 12:06:57 bazhan gnome-session-binary[941]: Entering running state
+Sep 20 12:06:57 bazhan gnome-session-binary[941]: WARNING: Could not retrieve current screensaver active state: GDBus.Error:org.freedesktop.DBus.Error.NoReply: Message recipient disconnected from message bus without replying
+-- Boot 124e5e72a8f549c9a2e45575bb3517b1 --
+Sep 20 12:34:53 bazhan gnome-session-binary[960]: WARNING: Could not check if unit gnome-session-x11@gnome-login.target is active: Error calling StartServiceByName for org.freedesktop.systemd1: Process org.freedesktop.systemd1 exited with status 1
+Sep 20 12:34:55 bazhan gnome-session-binary[960]: WARNING: Application 'org.gnome.Shell.desktop' killed by signal 11
+Sep 20 12:34:55 bazhan gnome-session-binary[960]: WARNING: Could not retrieve current screensaver active state: GDBus.Error:org.freedesktop.DBus.Error.NoReply: Message recipient disconnected from message bus without replying
+Sep 20 12:34:56 bazhan gnome-session-binary[960]: WARNING: Application 'org.gnome.Shell.desktop' killed by signal 11
+Sep 20 12:34:56 bazhan gnome-session-binary[960]: WARNING: App 'org.gnome.Shell.desktop' respawning too quickly
+Sep 20 12:34:56 bazhan gnome-session-binary[960]: Unrecoverable failure in required component org.gnome.Shell.desktop
+Sep 20 12:34:56 bazhan gnome-session-binary[960]: Entering running state
+Sep 20 12:34:56 bazhan gnome-session-binary[960]: WARNING: Could not retrieve current screensaver active state: GDBus.Error:org.freedesktop.DBus.Error.NoReply: Message recipient disconnected from message bus without replying
+-- Boot 044f149ebfe141a296a8a03fd500c90e --
+Sep 20 13:02:54 bazhan gnome-session-binary[938]: WARNING: Could not check if unit gnome-session-x11@gnome-login.target is active: Error calling StartServiceByName for org.freedesktop.systemd1: Process org.freedesktop.systemd1 exited with status 1
+Sep 20 13:02:55 bazhan gnome-session-binary[938]: WARNING: Application 'org.gnome.Shell.desktop' killed by signal 11
+Sep 20 13:02:55 bazhan gnome-session-binary[938]: WARNING: Could not retrieve current screensaver active state: GDBus.Error:org.freedesktop.DBus.Error.NoReply: Message recipient disconnected from message bus without replying
+Sep 20 13:02:56 bazhan gnome-session-binary[938]: WARNING: Application 'org.gnome.Shell.desktop' killed by signal 11
+Sep 20 13:02:56 bazhan gnome-session-binary[938]: WARNING: App 'org.gnome.Shell.desktop' respawning too quickly
+Sep 20 13:02:56 bazhan gnome-session-binary[938]: Unrecoverable failure in required component org.gnome.Shell.desktop
+Sep 20 13:02:56 bazhan gnome-session-binary[938]: Entering running state
+Sep 20 13:02:56 bazhan gnome-session-binary[938]: WARNING: Could not retrieve current screensaver active state: GDBus.Error:org.freedesktop.DBus.Error.NoReply: Message recipient disconnected from message bus without replying
+-- Boot 8c3fe05dda36424c994d715e790e3068 --
+Sep 20 13:30:57 bazhan gnome-session-binary[947]: WARNING: Could not check if unit gnome-session-x11@gnome-login.target is active: Error calling StartServiceByName for org.freedesktop.systemd1: Process org.freedesktop.systemd1 exited with status 1
+Sep 20 13:30:59 bazhan gnome-session-binary[947]: WARNING: Application 'org.gnome.Shell.desktop' killed by signal 11
+Sep 20 13:30:59 bazhan gnome-session-binary[947]: WARNING: Could not retrieve current screensaver active state: GDBus.Error:org.freedesktop.DBus.Error.NoReply: Message recipient disconnected from message bus without replying
+Sep 20 13:31:00 bazhan gnome-session-binary[947]: WARNING: Application 'org.gnome.Shell.desktop' killed by signal 11
+Sep 20 13:31:00 bazhan gnome-session-binary[947]: WARNING: App 'org.gnome.Shell.desktop' respawning too quickly
+Sep 20 13:31:00 bazhan gnome-session-binary[947]: Unrecoverable failure in required component org.gnome.Shell.desktop
+Sep 20 13:31:00 bazhan gnome-session-binary[947]: Entering running state
+Sep 20 13:31:00 bazhan gnome-session-binary[947]: WARNING: Could not retrieve current screensaver active state: GDBus.Error:org.freedesktop.DBus.Error.NoReply: Message recipient disconnected from message bus without replying
+-- Boot fb9ab1c5a1464ee5b077390033632d3b --
+Sep 20 14:25:56 bazhan gnome-session-binary[948]: WARNING: Could not check if unit gnome-session-x11@gnome-login.target is active: Error calling StartServiceByName for org.freedesktop.systemd1: Process org.freedesktop.systemd1 exited with status 1
+Sep 20 14:25:57 bazhan gnome-session-binary[948]: WARNING: Application 'org.gnome.Shell.desktop' killed by signal 11
+Sep 20 14:25:58 bazhan gnome-session-binary[948]: WARNING: Could not retrieve current screensaver active state: GDBus.Error:org.freedesktop.DBus.Error.NoReply: Message recipient disconnected from message bus without replying
+Sep 20 14:25:58 bazhan gnome-session-binary[948]: WARNING: Application 'org.gnome.Shell.desktop' killed by signal 11
+Sep 20 14:25:58 bazhan gnome-session-binary[948]: WARNING: App 'org.gnome.Shell.desktop' respawning too quickly
+Sep 20 14:25:58 bazhan gnome-session-binary[948]: Unrecoverable failure in required component org.gnome.Shell.desktop
+Sep 20 14:25:58 bazhan gnome-session-binary[948]: GnomeDesktop-WARNING: Failed to acquire idle monitor object manager: GDBus.Error:org.freedesktop.DBus.Error.NoReply: Message recipient disconnected from message bus without replying
+Sep 20 14:25:59 bazhan gnome-session-binary[948]: Entering running state
+Sep 20 14:25:59 bazhan gnome-session-binary[948]: WARNING: Could not retrieve current screensaver active state: GDBus.Error:org.freedesktop.DBus.Error.NoReply: Message recipient disconnected from message bus without replying
+-- Boot 9c37465304f54c748390e9874fa81a2f --
+Sep 20 14:26:52 bazhan gnome-session-binary[952]: WARNING: Could not check if unit gnome-session-x11@gnome-login.target is active: Error calling StartServiceByName for org.freedesktop.systemd1: Process org.freedesktop.systemd1 exited with status 1
+Sep 20 14:26:54 bazhan gnome-session-binary[952]: WARNING: Application 'org.gnome.Shell.desktop' killed by signal 11
+Sep 20 14:26:54 bazhan gnome-session-binary[952]: WARNING: Could not retrieve current screensaver active state: GDBus.Error:org.freedesktop.DBus.Error.NoReply: Message recipient disconnected from message bus without replying
+Sep 20 14:26:55 bazhan gnome-session-binary[952]: WARNING: Application 'org.gnome.Shell.desktop' killed by signal 11
+Sep 20 14:26:55 bazhan gnome-session-binary[952]: WARNING: App 'org.gnome.Shell.desktop' respawning too quickly
+Sep 20 14:26:55 bazhan gnome-session-binary[952]: Unrecoverable failure in required component org.gnome.Shell.desktop
+Sep 20 14:26:55 bazhan gnome-session-binary[952]: Entering running state
+Sep 20 14:26:55 bazhan gnome-session-binary[952]: WARNING: Could not retrieve current screensaver active state: GDBus.Error:org.freedesktop.DBus.Error.NoReply: Message recipient disconnected from message bus without replying
